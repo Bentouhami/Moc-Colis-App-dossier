@@ -1,0 +1,7346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{64D9FFA7-85B0-4E29-B224-8ACEBBC34A46}" Label="" LastModificationDate="1703702438" Name="Diagrammes de séquences" Objects="240" Symbols="39" Target="Technical Architecture Modeling (TAM)" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.7.5.6978"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<a:SessionID>00000000-0000-0000-0000-000000000000</a:SessionID>
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>64D9FFA7-85B0-4E29-B224-8ACEBBC34A46</a:ObjectID>
+<a:Name>Diagrammes de séquences</a:Name>
+<a:Code>Diagrammes_de_sequences</a:Code>
+<a:CreationDate>1703696632</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703702438</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Class Diagram Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Cld]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=Yes
+UseTerm=No
+EnableRequirements=Yes
+EnableFullShortcut=Yes
+SynchroCode=Yes
+ShowClss=Yes
+DeftAttr=int
+DeftMthd=int
+DeftParm=int
+DeftCont=
+DomnDttp=No
+DomnChck=No
+DomnRule=No
+SupportDelay=No
+PreviewEditable=Yes
+AutoRealize=No
+DttpFullName=Yes
+DeftClssAttrVisi=private
+VBNetPreprocessingSymbols=
+CSharpPreprocessingSymbols=
+
+[ModelOptions\Cld\NamingOptionsTemplates]
+
+[ModelOptions\Cld\ClssNamingOptions]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Name]
+Template=
+MaxLen=254
+Case=T
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Code]
+Template=
+MaxLen=254
+Case=C
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Name]
+Template=
+MaxLen=254
+Case=T
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Code]
+Template=
+MaxLen=254
+Case=C
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP]
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Code]
+Template=
+MaxLen=254
+Case=O
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Name]
+Template=
+MaxLen=254
+Case=L
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Code]
+Template=
+MaxLen=254
+Case=O
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Name]
+Template=
+MaxLen=254
+Case=L
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Code]
+Template=
+MaxLen=254
+Case=O
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST]
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT]
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Name]
+Template=
+MaxLen=254
+Case=L
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Code]
+Template=
+MaxLen=254
+Case=O
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO]
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\AREA]
+
+[ModelOptions\Cld\ClssNamingOptions\AREA\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\AREA\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Xsm]
+GenRootElement=Yes
+GenComplexType=No
+GenAttribute=Yes
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+Notation=2
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No</a:ModelOptionsText>
+<a:GlobalObjectID/>
+<a:RepositoryFilename>E:\Projets JavaFX\Faisal\Dossier d&#39;analyse\Diagrammes\séquences\diagrammes de séquences.moo</a:RepositoryFilename>
+<c:PictureFiles>
+<o:PictureFile Id="o3">
+<a:ObjectID>4D1E4EF7-AA27-4243-8C5D-8A7589998160</a:ObjectID>
+<a:Name>Database</a:Name>
+<a:CreationDate>1703702231</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703702231</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:PictureID>8CFB5800-5CDB-42F1-8FAA-B0829D16088B</a:PictureID>
+<a:PictureType>3</a:PictureType>
+<a:Path>piclib://Architecture d&#39;entreprise.piclib#Databases\Database.png</a:Path>
+<a:Content>89504E470D0A1A0A0000000D49484452000000AB000000CA0806000000DA40B0
+E60000200049444154789CECBD79B425C9591FF88BC8F5DEFBEEDBEAD5D25DD5
+7B55AB9B162DA9B58C96D68600CB12208140020466800119CC622C1818EC8359
+C4A2313683ADC3C103E3611B40426E901092C58019666C6CCC19EB0C8745126A
+D17BD75BEF9A6B6CF347446446E6CD7BDFABEAAA6E49EEEF9CAA77738B8C8CFC
+E5B7C71744298567E959FA6C20FA4C77E0597A964E4ACF82F559FAACA167C1FA
+2C7DD690FF4C77E099A00FFDBB8F06006E2084841EF5CE8090DB08E0799E770F
+A1DE5D4A298F50D227849E52C02925150114082104848452814829AFEADE4A29
+2829A19492001825500A205CC8524971A0941A292973CE452184F818E7FC6100
+4C29F5292EF84449957CE3D77DF593D7723C3E5B887C2E1B58BFFBE17F473CDF
+A7AC2C9F03E05214457710EADD403D7AB347BD97114222050C15D0530A904A81
+730ECE39849410429ABF02769CA4541052422989AB1D3B0280500A4A3C504A40
+88DE473D0F1EA5D0DF04400981E779000021E44C49914A29278CB13F1142EC0A
+C1FF36CFF38739177FDD1F0C1EFDC6AF7DEBD57D419F25F43905D60F7EF823B1
+10E2F33CCFBF430A796BAFDF7B95E7FB170921E700B229A404E7028C31142543
+C94A942503E31C8C737021C0B980140252C1001250500008A000BB6549B9FF91
+8E4E392713529F40CC7F7A1F310026A0848252024A293CCF83EFFBF03D0FBEEF
+21F03D789E0FDFF30DA8011028C1F89E9062BF2C8AFFCA18FB5342C92379967F
+D2F3FD4FFDFD6FFCFACF19007F5683F5810F7EF03CA5FEC5C0F7EF2094BEC10F
+FC3B09E8AD20644D48498AA2409E17C8F202599E232F8A0A9C420848292195D2
+72181A57C4A2087AA382973941399B20448BF56A0C1D20ABBA2DCD29EBB6F47D
+48E35E2E90412C7CEBF3080808A5F02805F5287CCF43100408830041E0230C7C
+789E078F504829A510E25070FE505EE41F534AFD2163ECA132CF3FF13DDFF1F7
+27D7EC053CCDF45905D6F7BEFF81A1EFFB77789EF7F2308A5EE9FBFE4B08A137
+4929839231A45986244991A419922C435194609C417001D100950103A9A0821A
+681ABC4A294829A1A4AA00292135D21CC412C37441000A5AFD262086E156A885
+037D104A400835DC54FFA694827A5A350034776D831A84541F02D1FFC1A3C470
+610FA11F200C43846180C0AF39B0E03C2D4BF6F1A2CCFFAC288AFF4B70F1FFE6
+79FEF00FBEF3BBCBEBF5BEAE357DC683F5977FEDD7E37EBFFF92308C5E13C5D1
+1B7DDFFF3C28ACE56581F93CC1749E603E9F23493314456EB8A66C703C050262
+5065C5BA920A520A08218DD837A0D467831282380A11F83E0821F07D0FBD3846
+1C472084DA56B598F63D78066416900AD09C5B4AA35E6855434A8D76A500CE05
+0A561A9D58EBCC424848A9B4CEEA795AB7A5141E35F7F03C07C416FCF6AB337D
+A704947AF03DAAB96F18220A434461004A29A014CAB238CCB2EC4FF22CFB4891
+65FF8F10F22FFFC9F7FFA3CF68307C4682F5810F7C300AFCE07984D237FA7EF0
+A56114DE2D8488E7498AF16482F16486799220CB336D0C096BEC38CF625EBEAA
+00A345BFE0C218480A611822F03DC451A4811845D8D9DE441886F03C0FC3B501
+C2C087E57281EF21F07DCD5C95327F517D18FA9F84945ADF9506FCBA0F4AFF33
+1F8A520A42084725D19C3C37D2404A89342FC04A0E21F5790A04524A8052ADB7
+7A149EEF9B0F856A4E4DBA3930A5B5EA104721A22844E007001458C98EB22CF9
+9810E2BDAC2CFFE87BBFF3DB3EF5B4BFF413D0670C587FE37DBFE5F5E2F86E3F
+08BF2C8EA3377B9EFF7CA954309B27381A8D311A8F319BCF9117050497904A73
+2317A056740B2E2AAB9E730E4280C0F7114711FAFD1E4E6D6DA217C7D8581FEA
+7DBD18511499976AB82321958165494AE9706B0B52735FA541081850B601ACF4
+7E0509255B0087D2FB504B04CB959594E042A228198410281803631C65C95072
+0E214D0789E6F29EE7C30FF45F62D40B571D06B40AE2518AC0F71145117A5184
+20D0C02DCB72C48BE23FA9B2F82D08F107FFE03BBFEDB1EBF8DAAF889E71B0FE
+DB0F7C70230882374661F4B6B8177F0140D7E64982A3D10847A33166B319F2A2
+04E7BC7AF15617940AE6650A70CEC0CAD2809320F03DAC0DFAD85CDFC0C6FA10
+C3E11AD6D7060882108131468C7AA9DBB362D58C0731C6934BEE7603AC2EC734
+607581AA54BD4F3A60D5FB64A596B8D7DA0F4329AB37BB924241486EC0CBC1CC
+BF927370A1C787500F41E0C3F703F8810F4ABD96EA80EA393D4A1104FA638EA2
+08BEEF034A82E7C563799E7D384FD35FCB39FB2F3FF4FDEF2CAE1F128EA7670C
+ACBFF1BEF7DF361C0EDFB6B636F8FA308AEFCE8B821C8DC6383C3AC2643A4396
+E7E05C4009A15FA6B1C42BB1CE05182B51160538E7F03C8A41AF8FCD8D21B636
+35407BBD185118C1A3265067AD6A820A9CD4BE40F3BB1A980EB0C28AFE6A5373
+504834C47B17576D1EB3004613ACCEB516ACAE91279506AA92CA48165583DE7C
+B44C0870035C26F4BD09F1E0053E822080EF87F03C5A19712E11E3D70D0D70C3
+488F1D2B8B3C4D92FF309FCFFFF73CCF3FF4133FF43F4DAF132C56D2D30ED6DF
+F9DDDFBB398AC2EF58DFD8FC7ADFF3CFCDE673EC1F1EE268344692A628CBB2E6
+38AE9895129C73946589A2C8C11987EF530CFA7D9CDADAC4E6C63A866B6B88A3
+10C482D3009C3A7A5BE5466A81B5CD758E05AB3200558E08973819588DCB4CEB
+D52DB03AC0D4A074C06A5D6D52D6C055B2D277AB8F404928A183178C0B7029C0
+B984004008851F040882107E106809D3D61300504AE0793EA230442FD66A82E0
+0CD3E9EC635996BE4708F1DE1FF9817726D709269DF4B481F5031FFAF06DBD5E
+FCEDEBEB1BDFE007C1E9F1788ABD83038CC613E4790E6EFC9E16A080E6A04248
+0DD03C475996005118F47AD8DE58C7E6E606866B6BF07D1FDA3ED796BEF669BA
+2004A87113AD02EA716075F5D505B03A1F57CD3D0D182B4EE9B8C4AA0F5156E0
+86739E0B46259B20B7D245BAA03660957211E8FAAF04970A9C0B700928C345FD
+304218867A0C8D8471C97EE4A131CC822080101C4992FC7F599ABE8731FE9BEF
+FAC7DF37BF9ED8A9FA72BDC1FA3BBFFBA1F3FDFEE03B373737BF250882EDF174
+8ADDFD034C2653633470A3AFD54687E6A20C455E20CB3208C111043E3687436C
+6DAE636D3040E0FB8D81D592DDF84E0935DBA8814829A815F544478A1AC7AF16
+ACB2065DD57FA34B2BB4C1DAE49EF5F9CE7615A890F579B2E6CE2E5885B27906
+B26A5F5400B7465DEB63315C590805A1142400E2F90882106118C10F824A02B5
+891AA32C8E23446108CE39E6B3D99FCFE7F39F66AC7CDFBB7FF81F5F579DF6BA
+81F5BDEFFFED78B8B6F60D3BA7777E20EEF56E9DCE13ECEDED63329BA1284A48
+292AA3C2B5A61963C8B2145996410A8E5E1C616B6303C3B58116F1841AF1AE2A
+4BB78AF018B052422BD7A375E7584BBF8B9BB6C16AFFAE06AB7ED1AA1378DA73
+603D038BBA6AF39A06603BC0DAA5B74A299C760CA795CE7DA474DA54D54703D3
+37CD1CB49EAB81AB411BC531C230421084A05E77529E0BDAC0F7519625C6E3F1
+EF4FA7D31FFA17EFFAA13FBD2E80C27502EB7BDFFFC08B2FDC74E1A7B636B7BE
+202F0AECEE1D603C99222F8BC5A89079419C33645986344D21B806E9E6FA1083
+7E1FBEAF93399452CDD0A523E65DB0EAD0645315A074B9E82794D69C1927036B
+E5673500C17160752C7FD97A7EAC026B439CD7C0954A547AAFCB59EDB542E804
+1C1BF4609C83330E264CA28E095254BE6721008F228EFB585B5F47DC1B208A22
+8451084ABDCEF7ECAA079452CCE6F3D9E8E8E8E7D32C7DF77BDEFDAEC36B8DAB
+6B0AD6DFFBE8EFF77B71EFBB4FEFECFC801784EB0747231C1E1D21CF73EDF876
+5EAA7DA19C7364598A344DC158893008B03118A0DF8F9D41528E254F2A8BDE5A
+F1D56FBB1F149AB91E03560BD20EB09EC86D8565605555A44AEB968603C3EA97
+4D89824AF7747458D934CCDAEA828EBE09702135F01843C998F95B8295DA1FAB
+7DCDCD7C082125A430008734E3A4A5914708A238C6706313BDC1104118A2D7EB
+C10F3420BB88528A280C1147214AC631998C3F2604FFDE1FFFC1EFFBF7D70C5C
+B88660FDC8EFFFC17DDBDBDB3FBBBDBD7D7F9AE5D8DD3F4092243A8B499BCB0B
+839DE70592F90C799EC3A304837E0FBD38D23A134CC2870B4CA0062BB5F1FD9A
+B3D6EE289824140BCA1AA48B60ADDBBF62B03A010138206D724F07744EC000AE
+DFD5EABC8D6081D179858430C0648CE9604059A2284A14AC00670C6561C02839
+B8E192524A3B80955A4489F6A7FAC6FF1AF83AABCB1A58BEE75511312DCD0866
+4986242FE10701A2B8B7D47B0002F8BE8F38D4A0CEB2AC98CF66FF2A4DB37FFA
+333FFE43E9B5C0D83501EB47FFE00FFFC1850B177E2C8A7B5B87473ADA54940C
+528ADADDE3009595259244C7F4A51088C300BD9EF6E9D9BC10DDBB96C8C7C9C1
+BAE011A0B4023175C1EAB6DBF5120C7581553A806D80B5C1051DE3A8EDA282AA
+C607501A984282718EA22850325679418AB2445996E0D2886D2E20A43063A525
+8947A94E62090204415089F1C0F7AB0C2D4AA9D17BAD7450105CA02C4B30561A
+6EACC1AF5D850C4996C10B420C861BE8F707084DB46F991116063EC220445196
+188D46FF314DD36FFF973FF9C37FFE5471F694C0FAC0077E37DADADCFC899B6F
+B9E57BB81064FF70A4B9A94D5656DA3246953822911739A6D309F22C03051085
+3AC50DFA34A36B02F6BF86131F4D505586544B87A5152776B8A901AB6B7055AE
+2C3C75B02A2B3D96845A2B631200CC3915B7640C455922CF2C300BED62B23AA5
+94751F29411884FA5F14A017F7108521C228441886A084E8400074524C5E94C8
+F31C4599A3284A64261BCD82BF2CB5CAC085A85C5C6DE3CF060B066BEBD8D8DA
+C260B881B8577359E2668519F27D1F5118404889F178FCE874327EC77BDEFDAE
+8F5C35D8F014C0FAC10F7D7870E6ECD95F387BEEECD7645981C3D108795E5422
+DFEA7496E3082190CCE798CE6628CB02140A51E057BA12B1297BA41BAC0D35A0
+13ACAE77805603D8046B13A4D469EB8AD400F36C1A84A8925514B060E9DBF385
+0D6A3086A2289067398AB230698C1C5C70482E2D9C4108A952FDA23042BFD743
+144788A3087EE0576134CE05B23C459E1748B30C6992EADCDD3C47966B800AC1
+75BE84E490C2E9970D7198B6ECFBB2F76F93920A611C637D730BC38D4DF40703
+047ED0B01D2AD012028F5084610005603A99CC93F9EC9BFE979FF8E1DFBA22A0
+397455607DDFBF7DE0D4CD37DFFC6BE7CF9F7FFD6C9EE2683C0163CCD1E3642D
+FEA502D3FE38CC6653B0A200250A9EEF2D887197832E72D6A6C104B860758FC1
+016D6D9051EA88FD96FEEA72ED65D406AB347F2B1FB1016B75DCB8E1CAB234C9
+DF198A5C8B76CE582D7D4C3FC24873CB7EAF875EBF875E1C238A42D80F8E3386
+34CF916739E64982344D90657915F5E35CE8DC5D216A6651A9602EB7B4DB2D89
+502176151E748E2EA5146B43C365D786080313356CA864FA7C4A088250037A3E
+4F8AD978FC8F7EF6A77EE4E7AE1473C05580F5FDBFFD811B6FBFEDD6DFB8E186
+1B5E35991A4E698D28D42FD01A54252B311DEB8494B2C841092ACB7CC168B228
+AD7CA4A47EF016589B7A6AFB580DFCDAB05A1EC1AAFAB004ACDD9E00EB36AA73
+166C7E6A9EE5C8B21C79915740E242EBEF203A37368A22C4518CC15A1FFD5E1F
+7114555E89DC70DE799A623E9F23CD522449AA673930DD5E3B1C5D875A17DD5D
+7514AC29E2AD615881F5582CE8F1564A81508A5EBF8FF58D4D0C87EB88E2D848
+49E7C377DC8881AFF5E579329793F1E87BDFF3EE77FDCC15010F5708D6DFFCAD
+F76F5DBA74E9819BCE5F78CD6436C56C966837486540A072C928A9C0CA42A7F6
+4DA7C8D31404AA7234B7C14149BDBFFE30971858C782D5756BB999F84F1DAC96
+24B4A55E960C7991234BB5F82D4B0626388411E98410844180308A30E8F5D1EF
+F7D1EFF7E0073E08084A566A0E394F309BCF91A619D22C45C938182BB50B0BA8
+D20F2DD7D62014B52B4CD521D885506B7B9F46A799F960007F0560ADDE138030
+8AB0BEB189B5F50DF3C179CE78EA6BECD8FABE0F4209922491D3F1F81D3FF7D3
+3FF18BC7DCB079F79382F5FD0FFCB67FC38D37FED2A58B17DF9E2429E649A21D
+CE0D65BC7EE892318C8F46184FC748663328A52AB0B80FAB43A35ADFD4DB68A8
+0204B4B1EFB8A0800569DBF2A7D6B0A26EC8F5646075890B81B228916429B22C
+4761B2BE6C02352C38C30883B53E06FD3E7ABD1E3C5FEB99599E234D33CC6633
+CC93B9E698C63FAAAAC852ADEBAA4658D5E6B95A10EA84159B23508574DBA156
+C7875B835555DCF4AAC06ADC7E00100401861B1B18AEAF230CE39AE190DAC8B5
+EA99EF795000E6F3599ACCA65FF9F33FF33F9FD8E83A71DD80ADADAD77DE71DB
+6D6F6725435E14B01622450D564073002E0452A357A5F3044A49D830A97DE6FA
+8F33400660CD1DDDA4B0BC4207719B6D28FD758BC7C1D2052E334651966515F7
+E4821B8E06F89E877EAF8FFEA087417FCD70CE105012795160660CCBF93C419A
+66284B3D9545734ADD55CFA3508434A257D5635406500B4C0A5004B52EB26CA0
+DC46AE355102CE3966B3291480B52110068ED1D5907E12520A789E87288AFB45
+51FCEC377FC7F7FCD5FFF69E9F79F824B73A1167FDE8FFF907AFBEFBAEBB3EDC
+EBF7FAD3E9CCE84CAE025F83550881E97486A3C303EC1F1E8295A5E1642DB1ED
+E8A34DD751731F561A584DE3A8196285C33D97AB002E67B5091C4A69E328CF73
+6459863CCFC118AB62EA3ACDCE471CF5B0B636C0DADA1AA22806214051969548
+9FCE66DA55549610C228499501BE18955A9617E08A792BCE1BDCD54E995175E6
+55A72A50A903F6DD5D2567B5462CEA310701FC20C070B881C1DA402770A3CBD3
+63E78851948C613A1EBDCFF383AFF9B99FFE8963A78C1FCB597FE7031F3C73E9
+D2A57FB13E5CEBCFE6734029781E6D0CB87D5825158AA24092CC30994E501605
+68CBD15FF1AB86F7BFFEF8AB897DCDC3D5F9EEFEEAF7C28EF6D57ABB939B3AC0
+B5004DD3B402A8FD083D4AD1EBF530180CB0B636C460304068328FD22CC3DEFE
+1EA6B39916EB450921AD11A45F90E7D13A30608D33D34B5571BF26D5D8A9C544
+E5AB750FA9D6F60A522BB64E4E5D234920B8409ACCE179DAF8D2EF120D860042
+A0A79169576214F7DE9A26F33F01F0B3C7DDF558B00ED606DF7DC3B9B3F7E579
+0ECE98D60561C48FD636AB816792214DE65A1F9B27204483D8F0C1BAD10A787A
+36E60230615FA2AA3D04E60CAB3A2C819ED3FC7275823A5C94738E7996551CD4
+4E9F0100CFF310C73186C32186430D50CFF3509425E6F3044F5EBE8CD96C8EDC
+24834BA5F4B810FD326C85210B4EBDD1868B02887BBC9BC1A94A94EBF174215B
+2B0C0B8AC2E2C05CDD414DA4E3A7D1C70C0EC139439E6508029D7658F79D5498
+01D17921845AA3CBFBBEAFFDA6777CF8D7FFCDBFFE9B55B75F09D65FFFCDF7DD
+FB9217DDF7AD005014CD54C506A724DA4D55E41992F91CE3F1B872D318B9093B
+901588BA1EBC4D2EC7A45D903607150168CDA9DCBEB92AB09DA72FA5449A6648
+D20479968131668EEBC1B3005D5F5FC7DADA1A28A5C8F31CA3D148EB9E49A2D3
+1C45EDC4A71ED5F17E1831EBF6CFF9E5FE73782BBAC1D20D2017CC4D2E4B9C3D
+F60EED365A17AF50778F2577B09DBE156581B8D473B9ACE15CDFC84A15528138
+0C82F399E7FD0F00BE7FD5ED5682F5F4CECE376F6D6EEEE479DEE9BE7149308E
+643EC7683C425194F5BC273B688AD49CD6FAEABAACEF86B85F1C0DF7F5AE3492
+1C1DC133EEB23CCF912409922441C94A28A9CCF40D0FBD5E0F1B1B1BD8D8D8C0
+7038AC007A707080E9746AB2C2981E60ABF77AB4235AB5BC3B30CFA46BB22D03
+711B6CED364893139B234DB8B7B7AFAD79B56CDC2BC62524F2BC4018450802BA
+644C54A5F605BE8720F0BFF66BBEE91DFFEB6FFC9B7FFDE0B2FB2E05EB2FFDCA
+AF5E78D10BEFFB0A059879515AA67586E194425EE498CD6798CE661A8CD54359
+7DC53D1F953A61BA5D0FC042F3C7C1922C9E66C144A936F86633CC6773E459A6
+AD70A21DF3711C63637D1DDBDBDB180E8708C310799EE3F0F01093C9A402A87D
+6EEBB4B78E788B802A30E07679E10575C9F6EEDD9D97550075F48405343A1F8C
+DBB639B6FC562E0B5845DDBA6ABB15007AA63163261CBBE223565A2A854170A1
+2C8AB702F8C965775FC5595FB73E5CBF605D2D0B1127E7B79412799E633A9D81
+95DCE43D9E1064ABC8AA12A89BEBF854E07E10F6DE59AE7D993A72A62BE47894
+228C42AC0F873875EA14B6B6B6D0EBF5C018C36C36C3783C466AC297F6D9DA39
+9C27C1577DA605366A3059D0A9E6795D8FDE38C7B974D9552781DBD5539755D1
+6632D67BA3315132865E4FAB5F4AAD30F609D193177DEF4DDFF25DEFFCE95FF8
+97FF9C759DB614AC67CF9CFD728020CD1208C18D4BA815B2847EA1A549F99BCD
+93EA3DD4068EDE727157512D1B9B9B8E8A60AEC6B22F182055891D210466B309
+C6E311E6F304820B100A844188C1608053A7B6B1B3B383E1DA1A00609E24D8DD
+DDC57C3EAF004A4D5B5DB41208C7A284D42CD8D9D552623B1B7601AA5AC72A55
+90A816C0BBFA57B7B45297BD2252B0C673DBFFC218878242E07910B6FF955470
+7AA0B431EB51EF9E643EFB7C00FFB5EB4E9D60FD911FFBF1C12B5F79FF3D252B
+90E739A4540D3F657B4A7396EBE40A1B2CA8FAD012F7F621ACB9458C2B86D817
+591964E64F976EE0005CC7FBB5D37E3299549C514A5965AF6F6E6EE2ECB9B3D8
+39B58D308C9067399EBC7C19D3C90459964141735C5B07F5D82856258ADB1DAA
+B79771BF6558AA38A2A3562CDEB3BEEFA236BBACF1C5BBA9D6EE6318FC4A6ABA
+1617C51EE71C504A678981D4F3C00007ACFA23A3BA96D71A947A21AE04AC83E1
+F082EF7B3B699623CD753A5FED58AF1DEC9603A5A94EB49052C2CE2CB5E0B383
+431B8C76998AD0DABFE4345B7037CB338C46238C4623E4C65BE1518A7EBF8F9D
+53A770C3B973D8DCDC8002309D4E7174F808E6F319B81055ED27DBD695922BD9
+EB3DCBCEEC3EAA1AC0EB72469DDC15A5B96BBD4F75B571AD74846ABC3ADC01D5
+29A40A6884410802A6DD828006AA05ABE3EED335BBBC9B96DDB613AC5114DDA2
+945A4FB314799655C0D479A11EA847E0198303000A934B59FB45976BACD563B6
+75507B6187AAA088AB8F02B3F91C878747188DC76065094200CFF7B13E1CE286
+73E770E6EC190CFA0314458EC71E7F02A3D111B22CD70F5C55FC7B0ACB29AC7A
+E99DC7566BBAEA84E79DEC86D74F6B5D20E795D9286383D798089C4E75ACA366
+5A5D71000B052A015F6766DDBAEC769D60E58CDDAB009A65398AB2D47DA8C04A
+2BA73AA55A5EE7455159CDB693969556D2DDE8A16E20C0795E573F680296A84A
+444FA653ECEFEF633C1E83310E4A75D2C8D6E6166EBCF1069C3D7B1641E0633A
+9DE2938F3F81D178045E32505312C7B3F59EB0E4433A298775E4765BE4579CF2
+5A61C6E594152B37EA4087B1D6524D17E5FE315BC7D20986A87EA7BAED388EAB
+5A07D693B2005C98C2723EBD6B59BB9D60954A5E644C67129525AB62F936CEEE
+4EC023D04E602E0416D1B60C8135D586973EC705B1E779905262341E63777717
+E3C9048273104211C71176767670D3850BD839750A0AC0E1E12176772F63369D
+412A09DFF34D653DAFBB1F6E18F0847445AFD6C157DB5D6F237BAA7ADA0E1DD4
+FDA19AC7AE46B42FE0F61A7D501DEA6AD57C10F8E8F56230C6E08B663EAD9B9F
+2025B546D6C6B2FB748275364BD2344941A88E976B63C61A54D4A805B5FB8A31
+0E5981152D5C2C07EA02980D723DEA014AE26834C6E5DD27311A8D21B800A504
+711CE3DCD9B3B8F9A69BB0BDBD8D929578ECF1C7B1BBB78BF94C87786DE9474A
+69A34BF5DF96DBE50474B2F7BA02090B482180C900EE6ABCABA59A8992EABA86
+CE7B45EA89CB164EB0ECC07247786B4F732B0A759279E6E7E0BEE804AB520091
+42DB0F9466CBBAD009D62CCD66499A228A42948CA1CAAE71B3959C6D61E6A26B
+3D9074E0B32BFEEF28ADE6A7BD7E3C1EE3C9CB4FE2F06804CE3928A1E8F562DC
+70EE2C6EBDE5166C6D6F21CB723CF8E907B1BBB78F2CCDB4C1E4D3AAB4E3C2F8
+397EC0FAF7D59152307E0CE7593A19634B1B5DC63CDD66BA58A6BBCF017DE3FA
+A7AAEA5E013586AF632CDD773D18E84A3A76318F6ECE0A08612BE6D0A5C5DE3A
+C15AB0F289D97C0E42D6C1186F715607B406B055A28223B188519E6D68D5EAB7
+F6015DC64B3D9D09319BCFF1C4134F62FFE0009CEB8F24EEF570C3B973B8FDB6
+5BB1BDB585244DF1894F7C1297777751E439A819046AE600B547B5A113D3F620
+5F3D2DB5A33A8E357858855A57AA2C864B814570378EB6B0DCE4C4CA69B5AB27
+AAF3BAA74EB53DA0A099CFF6F626822000F568B36AB85341C6F659BB44F1F0B2
+D63BC13A99CDF666B319A238D6BE322C82B5CEBAA7A60628813089B555D7AD4E
+0833F0A49917408CC84FD3144F3C7919BB7BBB3A6186007114E3C61BCEE1F6DB
+6EC7F6B606E95FFEF55F63F7F2659D7BE07BF03DDF54AA7687AA7B00E1F4E529
+E2B4490E403B6C9985BE007241036883B4EB2695F8EFC80B80B26DABAE463B40
+7BF5D42DF23BE4A65218F4FB3873FA3400B3C64100C0E1AAD27CB452AA6AAD31
+CFF7FF76D9BD3BC17A70341A4DA633365C5F0FDCB9E35D89CBC42CA840A8075E
+96087C5581A3329E5C034AA15A5DA4284B3CFCE42378E289279165390801C230
+C40DE7CEE1E21DB763E7D4290DD2BFFA6B3C79F949144551194D949286CFA402
+6C43CA2FB251D5D84316B9F149C9C1C4A2385FE0910BD7A26BFF31F7ABF484CE
+AF6209375EC2ED3B3AB382DA9F784BE7EF5005A414387BFA344E6D9FC2FEC141
+E5D376815AD555901265A1B7FD203C5AD68B4EB02A29E5683C2EB6B7B703DFF7
+61DD4D7504CB0DB96A0EEBF99E714F08789E5FBD248266A8D5F33C48217079F7
+493CF2E8A398CDE600147C3FC09933A771E9E21D3877F62CF23CC75F7DFCE378
+FC892790E78559B4CC77FCA3A41EEB0EBC556EBF165E1B8EAB0AEFD7C71BB010
+DF27AE51B4BCC1462E41D3A45A4A95F4EAEC887BA36B2BF8BB6FA7E0793E2E5D
+BA88200C20A440E0FB8D8A34EE4C13C1CDFC33052845F265ED76829510822449
+C53C99A3DF1F541F4E2767AD925A3497658CC3F374B37600AD439F1082A3D111
+1E7EF8111C1E1E4128018F7A38B5B5854B172FE2A69B2E80738E4FFECDA7F0E8
+638F224D33BDC28899155977D0F943D0FAF02DB774940317A88EB175A53CB54A
+805EA60AAEDAA58E01D3122CD5BB1D61EEF8576B8DEF78182E85EB53C26F53B2
+01801012379C3B833B2FDE8122CB01E86ADB0BC695E1AC82335DA1464A6B8B77
+D252B00A21319DCEE079CE62115D7AABC36DA9E7A32C725DC6865213F3D5E978
+599AE2A1471EC5134F6392343F00002000494441543E89B2D4F9AE6BC3212EDE
+7E3BEEB8FD36F8BE8F471E7D147FFBD04398CDE6D56A229DE98670A188855FF5
+7300F6452EC4AB9EB281A52A23B2B9B7B9BDF84BBF0F9BD1DAE6980B57B40EBA
+DA40FBBCBA2D6B5EB5ACB0767B57430D09B54856657CFEF33E1FC3E110A3C913
+D51A066DA0DA3AB3BAEC26D7C6E70A29B73C45900093C914A1297968C5EF0248
+5BFAAB82CE7FEDF57AF03C0A21241E79E431FCEDC30F613E9F831082388C70F3
+CD37E3AEBBEEC4FA7088CBBB7BF8D4830FE2E8E8A80A9D5673B7481B57DDEEA7
+F623BA3AA9ABCF3AC3DA71D509A883B1AEB6DEBBCC1B17562EB0149A703B7197
+9AFDE83C76ADA88329D8FF88AE1C73C7EDB7E105CFBB5787E0A5EC7659997F45
+2E2018039712C4F300D6991D0860055829A148D214DEE1214EEDECE8FA9C6411
+AC6DEF80E7FBC8F2024118603A4DF1A9071FC4C1C1218494F0031FE7CE9EC53D
+77DD85B3E7CE623C1EE33FFFD99F617777AF7AA86A1DAA2E2C35FC508B406DE8
+9E0B5E2C527158022CE4D25C59A8B5098A65DC74199D184015D3748D2AF7AE0A
+EE549605D5B4C310BBD2BE3668D1C66A8A7FCE31180CF085AF7D0D7A710F8747
+63108FC2A7688659CD6F2138CA52975492A08DD572BA682567955262EFE05057
+1319ACC1F729E0963DEF540728A8EFE3892777F1377FF34964590E4A29D6D787
+B8FBAEE7E08EDB6F07671C7FF1177F81871F7E04052B11F87AD5109DA5E5BAA2
+DCFFC962B25687154A8C8E4A9CEBBAB881B2390257EB0D58450D7DB2E358F3C7
+E2291D22BEFA63DB35EEAF053DF6B87E5D63B2A1563B93E40B5EFD4A5CBA7807
+9EDC3B80544A4723416B90420152AF6790E719CAB240563250FFF812162BCFD0
+4561731C1E1E010488232DDAD100AB9BDB8A6AE9F1300AD1EBF7C139C7AD37DF
+827BEEB91BC3E1108F3EFA183EF9379FC27436A996237701E3D83F8BBA266902
+B8BEA0CD519B9FBDDEA5409CA8C09540F464EFD815C62D5DD1E1700D9EAC9A9C
+7155AB9D061BB4FE5B2584AC686481A3BA883F8EC8C28FC6215B67E1152F7B29
+5E75FF2B309B2728F2BA100A5073544041510596E728B20C6996EBDADBE4F82C
+B84EB052B342B3C960C1643A831FF8904385288A3A8B9CB9DC560881308C70E1
+C24D087D0F775EBA88D96C863FF94F7F8ACBBB9701A5131CC8B2343D07644D9D
+DB00AD43042D258B7E3303B68B1B9F88AC01BE0C355D17B85B76B30B9B961377
+715D779FF3BBD1C49572CC16A7BE126A0C1FD1B39A39E378DEBD9F8F377FD997
+404889799A82500A1F81F990B4D56FC1CA58892C4D90A409D2BC04F57C5D78FA
+18EA04AB1FF8D20F0255960C0480901293C914442AC8B5350461D8AA70B2A81A
+F8BE44AFD70721C0C73FF1497CEAC10751E405FC30D0335F3BC46F53C277896F
+555DE746C7162E36DBDD0AC0B29D4F913A8CF7F6B64D874303B8DDA1D66520D2
+EFDBD1533BB8A6C2029C9D06178DB0AB256916857BF17D2FC0DBBFFAABE0FB21
+F60FF5BA177EE001AE8E6A2AC170CE9026299234C1789642526F6919A8367582
+350CC2ADC0F7FBD64625848071815992402A89B8DF4718469D9CD502960B8E20
+D0C04C4D4D7AC6D8A294B63EDA86A2EAA8050BFB175149AAFFDBE45C4C9669AF
+57492D73FD382EA5E1D5BCA013A40B5B4EA875E5A760CE5DE8D7B55354DDB1B3
+6B1DDCFFB297E2ABBFF22D08820007872310A5E75C59FDD48D567126906729D2
+24C1D1680AAE6096E53C192DF3B3EE10424229744944ABA3965C806419B81088
+7BC29405778AC8B6A25B4208047E80B5B535F8C105ECEFED223525881607802C
+EE31EF872C7BA016775E166A6D83B4E2C94F25D44A54C5D556C3E11A80C57E09
+44193BAABBCDA727D4AAE7BC054188377CE117E0CD5FFA4680101C8DC75090A6
+589F63F91BC032C691A573A4498283D10819174B972C5A46DDE156A5867A29CA
+A61E4108C0A582C80B146589C160AD0A002CE3B2B6906E14853873F61C46FE11
+66B3899E4D70AC525D9B5827E78A3538497377FB3487B31F4F27869C756BA9E5
+5CF3D8CB97814C39ED761DBCCEA494425132EC9CDAC657BDF94D78E5FD2F475E
+1498CEE680027C8F425154615428A32A3086643643329FE1F2DE01A66901EA75
+03D527588AE04EB032C163CE78E58E5820A293B2A793317AFD3EA228AE5C4F0D
+B00206B07A9DA65E1CE3D4CE0EC228C4743A81601C8BAEA7267724E6A19BE86B
+5BFFCE4643CF20CEA605FEE2FD4E424B6DF663ACF0F6399D865167E30D8BAB3E
+BC706EFD712CEFC3529FC2898973BD3AF9E7DF7337BEFA2BBF02775EBC03D3D9
+1C6996014A99957668ADA7C20255603A9960369BE2B1CB7B18CDD3A540E58AE0
+522F0D96F5A1DB752525B1D699C5894B841084510C25A459FA86218E7BF07DAF
+01563438AC5EAA268E636C6C6C22EEF5319D8E51A4A9E6B2CB00D8446FC31350
+637705E4ECA19637E04A1580CA6859AA9CAEE6A36AC96F578FE8F406D8ED8E63
+4B4F5F76FF0563EC78924A82318ED3A776F045AF7B2DFECEEB5E8B7EAF67E6C1
+311028786639F8EA1E26CE9F1739A693092693111E7AFC322659D94821EDEA63
+48647FD9F14EB0DE7B3AC0271285E3EA5B0561082924927486A228D0EFF71104
+41E7FA525687658CA38C42335DFA3492788EF96C06C159CB5D4AAA0758FC5850
+ED5DD474B1E07AED3CE12A8800754CBF7AF1AB4DA4B64E6B6718A8EAB7EB0D38
+81F6DB68B0D9727DB06EF704CD76DFCBF84E8320C02B5FF632BCE94BDE80DB6F
+BD056996E168348214A21678CE782A2830219024734C2713EC1D1CE1A1277691
+96DCA97FD645DAEE510AEBCBCEE8046B2F20E1498A0C2BA5E0051ED686EB48E6
+334C2613C4718C308A9C3592DA9E020EC6F5BA4FFD3846BFBF86B8D7439624C8
+B254CFE552A49A7EDD94FCDD28D3AFA9CD2D49E374B2C4197645B44C9CC372C5
+E3ACF5651C56C19D26A3AAF6DAC654EBB7C329096C18134BC07C32B220F53CED
+1F7FFD177D215EFA9217C3F33C3DF5DDAECAD371ADCE4B2D309BE99A678FEFEE
+E191CB87108A1C0354F30CDA503FBFEC782758859083132F8CA1744DF9ADAD53
+4812CD258BA2401CC7F083A0D3074B88AED6511625A23CC760D0C7707D1D83C1
+1AB23445916766754223BABB20D6E1E2AABD5B2EBFD5306DF020652FB0AAC595
+40B88B7F2EEEB862FD76D5ED1664B8F544D4DC7441A7EDB8D7AA9E5B8BDDF73D
+3CE7CE4B78CD2BEFC78B5E781FD6874324C9DCAC71A633CDDA624B29A58B2AA7
+2966B32946E3091E7AFC320EA7693D65FF18B2B3463249CF2D3B67095805CB8B
+1C50EA449C48CFB1A2D8DCDC44AF17637434C2743A4118C688E2E55C961B2E9B
+E739E238C6DA600D6BEBEBE8AF0D74DC382FA0A4AE924414E9E6AE8D8173B867
+03BC4DD54137B5BA20F1D59303AA16681614862E402DE18A6D1389B48FACF810
+1698BEB22DC86AB1E7288A70F75DCFC1AB5EF132BCF0BEFBB036E8234D53ECEE
+ED4208A1C7AA6538EBFE2AE4798EF97C8AD9748E27F60EF0E8DE210A2EE19BD4
+D2939247091ECFE32BABC82285C8B3B4402FF4AFC017A99DBFBD5E1FBDF37DCC
+A6531C1D1D6136CE11C6118230AAABBAB40C3046B82EEE96A6E8F57A180E06E8
+F7D73018ACA12C0A94455EAD036B87B9F9C3DD6E29036DB5AEE3B2D54F55FFB7
+5CA8AF36AE3A4D756B54AE70D676DBF0B576EBEABF4BDD151DAC5F2A592D00BD
+B9B18E7BEEBA0BFFDD4B5E843B2FDD895E1C61369FE3F1C9B85A07C1CE067117
+B98352FA9D6519B2648EC3A3311EBDBC8F51928150EF44627FA1674240CAE5FE
+CC4EB06EF5FCBFF6540E21E9955BCD86CB9EDAD9C1FAFA060E0F0F301A8D90E5
+39A22842609602A70E580921108480705E5524ECC531D60603F4FB7DAC4531A4
+E0E0CCAC72625630B4B4D0C7A616D03A7675DC7429E35AC5399DAD6E03AAEB8A
+AE061DFDD4EAA5B6C54693CB7AA9CBF808212004471CC5387FE38DF8FCE7DE83
+173CEF5EDC78C30D504A623E9B616F6F17DC7052FD8AEA1A67C444693863D0A5
+A572CCE6733CB97F843D1391F27DEFD854BF2E9252820B81533EFB8FCBCEE99E
+DD9AF3BF8C3D1C150ADB7A15E52B53B614F46CC5300A71FEC2056C6E6DE1607F
+1F93895E60380C23333DB7AD1ED47ED9B2D075FBA328C2DA6080B5B501E2FE00
+84102821C0B95E75BBE913A8893842DE6AAE4FD1BCB20F77B27DEDDDB5C554FD
+716D77F7E0721756ABFD16501BBE00E33E128C434889280C717AE7142E5DBA03
+77DD79276EBFF556C4BD18599EE3F1C79F409AEB44690000A993993C42014A01
+A59DFB4559A0345523F747131C8E6728B884E7FBF0BD2B676E96B8E080600802
+F9F165E77482F54F1F9B3FDCF3BDC732C1B7A999BD7A35A4572791585F1F6263
+7D1D4932C7DEDE1E46A331B22C4518463A02E679460977400B0266386D9AA618
+4DC6E8F77A18AEAD6130E823EAF54109D18B9A090E2CC9DA7141DA546FAF6258
+2DD0AA74B7A6FDB3F482AEDD4BA30CAD5317804BD095BBAA94E14E5CE88F9810
+44618033E7CFE3A6F337E2D6DB6EC52D37DD8441BF0FC639C6D32992279ED089
+CF66CDAD2A645E2D70A7DFA15E83B6D02BF1A42926D33946B304A500A8E7E975
+78EDF35CCDB02ABD8CBC07C97DA8FFB2ECBC4EB07EE08107F277FCBDB7FD87F1
+54DC5B4F08BC7A9252C2F37C6C6C6E61736B0BC93CC1EEDE2E8E0E8F309B4DE1
+793EC230AC8A55106A540410489855FD184396E5984CA788C210FD7E0F6B6B6B
+E8F7F5BAA7B67E805E3756760716CCFCA02AB2F51469511DAC39E3315A6C777B
+8EEEBA600F991F556D28A520A4307398F47A576118627B7B1B67764EE1FC8DE7
+71E1C28D38B5BD8D288A51943A2CFAE4655D9BC10DA5DBFA0FC4BA541420CDF2
+F24551A02C0A246986599A62961510521726D18633AE1AA4F5732BB0922126FC
+414AD49F2D3B6F69F2F57A443F1210FEED5CC86A0189A7427A829800F5283636
+36B0BDBD8DA2C8B1B7B78FDDDD5D4CA73328280441581553B3390756B7154280
+738EA228314F121C8DC688C21071DCC3A0DFC760D047AF1F230C6CBE0250A5E0
+59779521D7A2BDFA873AC1B14E9DF6986B0D20EB8975D248100161166EA35497
+541A0C06387D6A073B3BA770F6CC196C6D6FA117C71042204D535CDEDD439266
+6046DFB7B86A7B66004029ED196065095E3214AC44926698A739B2924311B3AA
+A47775356D9711E70242300CA8FCA37FF8C33F3D5D76DE52B0461EF9BFD743F2
+E7FB99B8F75A80B52223AE40805EAF87DB6EBF0DB7DC7C338E8E0EB1BBBB8783
+C343A4690A4200DF01AEF5D3D6C0D50F59E48501AE8720F01147117ABD1EFA7D
+B36E6A14218842F8D4036C8698E17C9EAACBC1AF1AFA55FEC9F6BEE3F868CD25
+9D39F4D21840524249A1D76A35EC9910541FDFFABA9624EBC375ACAF0FB1B5B9
+89B5B5213C9F427089A2C8B1BF7F80344D51140518E746C4D7454A5C6F8C022A
+358A339DBF61F5D2AC2851941C5C4F39D5AADA3592488DF1500A6559C0975CF4
+7CF9FE55E72E05EBBB7EFED7A7DFF5DFBFED370E3376AF540ADE35FC922CE944
+19023FF071E3F9F3B8F1FC8D48D30CFBFBFBD8BBBC87D1648C2C49CC44C4A052
+13DA595E424A10A25791CEB20C93E90C9452844180280A11C731FABD1EFA3DCD
+79A3304410E8F63CE399F08859B48318DFB282093737815831CCD62C4DA9DC7D
+751D5277B94BD8057F4D2BD58C614A10FB31A2C848044A315C1B208C22446188
+F5F57504BE56953C4A2194026725B2ACC068FC18B22247598153DFBB8A8D383A
+A87D0A2925A490609C817306CEB85EEC9873302E2025F41C3562AB9B5F0F7FB4
+26CEB5AAB1E5B18F7A44FED1AA7357CEC11A44DEFFB111F26F18317197175D43
+EEDA223DD351E737AEAF0FB1B9B9814B77DC81E97C8EA3C3435CDEDDC5D1D108
+699A6A8E68EBAE3A55035D714688B66AAD71462885E751F8BE5FBDF4288A10C7
+317A5184288E1045DAD80BFC0041E05773CD2825080C57B12B4D576800404C68
+D8AA1B56AF740D237BBA824E360E824003CFF3B4D7C2A308C300A15991CF5ECC
+8DDA93E5392665893C2F5096A5E68066256E37D2685D4D40FD210035F7168257
+0945DCAC45CB8480548054C4E4745010EFFA844BDA24954496E5F0652986A1F8
+57DFF5C3FF7CE584B063171AFE87DFF8B66FFEF821FB451A44087C5A71364A29
+3CAAF54AEA51CDA16C8D7EAA43671EF5F46F8F9A050E9CEBEC35CE7EF79FEF79
+F00D689404D224C1E1E121F6F60FB0B7BF8FE96CA62B1C02BA489B1F983E50C7
+278806883597B1FB6C5FA8B9DED720F203046180200810F83EA2284214691053
+8FC2F77CB3D463607C8AAE5E6DBC0FF61EB04E74345418AD0A09CDC5845E1C98
+0B81B22CABE5E0B91066597859E9A9D69221E659ACC55EADE360C4B4D573A5F1
+AB4A29C1CDCA294248836A3353999EC4A5D7F489DB44A55AC2D1DA48737CB236
+DAB5CCF392E73992D90CA7FDEC57FFC98FBDFBEF1DD389E3D76E5D0BE9AF9E1B
+D0373F9E945FE27BD171A75F33D2F16653598E7AD8D8D8C0CECE29DC79E79D60
+ACC46432C5E5CBBB383AD26B0B8C275364B92E93440801ADAA0CD6931F292190
+15787571620602147686430D326A3F20421BBF75F5C27A5D826AA64415E1C1C2
+CB22E6B8E6AEC451151CBFAA61BD362C6C3F30B7B42850DF4393BE4829BD9AB6
+10D2448144A56281001EF50153D3C10F6203206A56CD96388E615D0F624CCFC5
+EA13F6C890F21F3DC935275AC2FD07BEE5ABEF7CF0A8FCE84C7AB7F6E2F869E1
+AC1EA520E61C8FD4F7F03C1F7EA039A96FAAD2E5B98EA4ECEDEFE3E0E0104747
+23CCE773CCE689CE128279E9A67FB4029AE1129480A2E61880E5BE966B399CB3
+02DE6230A36B2E5A9D2E690C443BED07CBAF2315206B60DAA89592CA2CF52E6B
+4F81D20B8F78D4ABA4841F68C352BF23CFB4A17568294473E9F86331706D39AB
+1002F3D91C60993817E46FFFBE1FFD67EFBD666005801FFCB6AFFFF24F1E16BF
+99091AC671F48C81953A80F329D5DCC2F711DAA9DD4ABB60B22C3396B1595E7D
+3AC7C1C101924CAF98981745C57DECC07B8663DA45E02821959BA67A0180169F
+0DA0AD025DFB5C5247D79C6B1BD12BCB79A14C6459038A12ED84F73D4F2FEA11
+4508A310FDB80FEA79884C023C4C6BD22C3A2185AAB8AD5416ECCF0C58A59498
+CFE7002B70D340FED3EFFEC11F3D1157BD22B002C0EBEE7FC9F7865B37FCB3A0
+374014459F1160B5DBD6FFA7EBB7EA171A8621A230342F48810B86B22C717474
+84FDFD039425C3FEC10146E3098AA2C07832C57436AB2241DC88D42A0266FF73
+C5BB03466011B4D47971E8003835FAA3678C40ED22A208C310711CC1F703EDCD
+180C400941AFDF47AF3FA8A6B35B0E2C2A1D5754FED80AAC961B3FC360955222
+4B539445866CEFE10FED3DF2E9B73DF0D13F4E4F8ABFE36BB638E4F537C76FFC
+A2D78ADFFB833FF64008FA71EF4A2E7F5AC88A46817A81E420F01106017AFD18
+81EFE3A60BE711F8017CCFD34E70AEE3E7459E234933645986E96C86E9542794
+0B33E98D99383BE71C4C98051EDD88532304DB0C895A51AD5FB00742A139A4F1
+66C4710F71AC532A8320A8B83C1CC00B13ADE29C57912B5119510EF89ED6113F
+1959A0165982CD5E80CBB91CFCEE1FFDE773003E7DD2364E0CD67B9EFBDCBFFB
+2BBFFA6B3F7EEB2DB77850C0EFFDE11F230745BF175F55E79F4EB2E51505171A
+5F86735A8E1C040162CFC3FA7088B3A4C5452AEEA08D231DCDD5697652D9B28D
+D258EDCAE16666DBE17242692E27B9D639F5B5BC2A532EAD1740EA39F9765B1A
+80EA7D75FBAE87E04AC2BA4F2729E8D06D9A2428F30CC39000511FB7DFF3FCD7
+BEF6EF4C7F9252FAAD52CAC949DA3A11580783C1EDBFF4CBBFF2AEBBEFBAEBCC
+E1D1115EFFA56F421885F8BDDFFFF748A0B0B636C0F5741C5F4FB29CD8FE5E79
+2EB004ACCA015F0D262E6B07BC3455C1ED35D6825772F13A57849F4C4C7F6692
+1DDB344D20F20C6B01810A629D0043249EFFC297BCF5F1471EFA18809F3A497B
+C77AFA7DDF8FDEF9BDDFF78FDFF88637DC37994E50960508A1F8E2377C29BEE6
+2D6F42CF5398CFE7C659FE949FEF59FA1C213B976B3E9B42E6297A01C0698852
+E8E89BE01C9EEFE115AFFDC2779EBFF9962F3E499BC782F515F7DFFFA5DFFAAD
+DFF275AC2CC0F2DCF04FFDD5DFFF9AD7E11BBFEE6BB033EC613C1E8171F659CB
+059EA56B47520AE45986D9740ACA72441E41A10230AB16997C64C1193636B676
+5EF4D257FC8F41180E8F6B77A51AB0B9B979EA177EF117BF677B732B3C1A1DE9
+183C8CC057128C9578EEF3EEC3F6F6163EF4E18FE02F3EF169C8BECEEE5F5E57
+E359FADC243DC94630813CCFC059899848508FA2805E3152DB9CDA2B22507B32
+2EDC72EBEB6EBBE3D29703F895557758C959FFEE1BDEF855AF79F5AB5F9EA449
+B51E56834CC6CC0D176EC1D7BDFDEBF0C5AF7A1962AA75141BDEBB96A964CFD2
+672A292821F43497D914B24811F05C7B6416B8963209BF267A2625C220C0E7DD
+FBFC778451B474DD56600558A3281EBCE52BBEE2EB7BBD1EF23C5F29DE196390
+2078EEF35F801BCF9E06F219CA2C419EE70BF5B29EA5CF2D5252819525E6F339
+8A6C0E8FA548A7631C4C13E44C2E4B0B705B00009C3D77C3CB6FB9EDF6D7AF3A
+73A91AF0A217BDE8A52F78C10B5E9C2409CA92558DBACEEFEA764A21CB325CDE
+DDC7271E7A1CD3698A1D42E113894C0AC8B8A78308D7322FF6597A66492930CE
+C08A129C33F84A409619464986822BEDC3660C2AD2A55157313B42088230C4C5
+E7DCFD950096865E9782F5652F7FF9EBD7D606419224285909023D89AC8E6DD7
+80D54BBD1778F0D39FC668740442280E6729D618C77020C09580E402328E11C5
+E1554DD37D963E1348071C0463281983E01C54721051629665484A011052AD24
+C838D7390B66D51E60B97BD0A3145BDBA75EB275EAD4F9D1E1E1E35DE7748235
+8AA2F0977FE5575FC318479A65104236EAAEB617BE288A1C93C9140FFEED4310
+42220C7D104291141C259F63BDCFD0EF7370300811238A7A88E3F0BA24743F4B
+D787741AA38EE449CE4194802775819279CE209409BF3AFE76CE18A094C95720
+4D9F71156953D594A3E1FAC6CDE76EBCF062002707EB6BBEE0753B9B5B5B3726
+696AF4553860A5D56F9BA359E4050E0E0FB1BBBB6B3AAC89100201609C96484B
+8161AF44BFC7C00543226284510F7104101A9CB854F7B3F4F492ADD8C2188714
+1C1E04A8E0C88B024951824B8050AFB1E033A0DF3D37D36A023F0414D32B085A
+70B6C16A7EDF76F1D25DCBFAD25D9FB52C6F59DFDCD84AD21469A67DAB947A20
+9E9EFEA19318EC9407202B721C1C1C22CB8B852AD504FA5CA18071A641DB8F0B
+AC89129C9748590F411C238E220461F8ACF7E033806CE4C9CEC95206A48433A4
+4581B414E01275B112B8493E753B766645148620004ACE0D485B80357913BEEF
+238E7B1796F5AB13AC67CFDD703B2F592F953A57D466D8D8FC4C6A336C3C3D3F
+27CF0B1C8D27E0423444BB0B3CADE3524805CC73869C49F4A302835E01881E64
+19C30F2384919E8B4482C0D4FD7C96AE371162002A24B8D05C54705D8B812A0E
+C54ACCF3022913104A332E3709BCFD961CD31B4A2944710405331FCDA43D0252
+2F7F69F61149E0793EE238BEB8AC9F9D607DEEBDF73E8F310E651469C0F98A1C
+E05ACE9A177AA29E521238AE4E3C31861A08D252A26029E2BCC45A9C01710CC5
+22F0B287328CF484B9280409C266CDAA67E91A91CE73E55CD708E09C19800A50
+C1C019C3BC28513001A9B4714D3B16DAA96AE6B5EA0768F591EAA9E1DCD43750
+7A1D2CA52828EA59BC8AE8F5087ABDDE951566530ABD2CCF40882EC70EB4966D
+778C2C109D8A57559A33CA72F381B47C687F8154EB1728B842999608728E5E94
+A3176540144396117811A308234486E386C055D5527A9600EB909742A0E47A36
+30E71C4A7010C9E14901CE4AA42543564DC3AE674D685A31F61D87C240E7E3E6
+45014F88463D0477810C2975DEB3E7794B6FD009D679924CE689AE335596AC99
+2E479BDE009BF85BCD136AE92D0D5C59C5A6D51D4234000580792990B11C4156
+A217F988A310711843C431CA304210F610467A766A140408CC87F39999C5F9CC
+52354DDCCC92B5336385E05082014280180E5AB21279C9C1A4998D5BBD5F43DD
+3F3B5E67732BB6F6881F80FB62610ABBCDFB1542973CF23C7FBEEC79BA0D2CC6
+47F3790A4A3D30AE39EB82DBCA6484534220A4D285D65CFFA942733116E2CCCC
+5CF260DA974B2A2F425208A4658ED02B118529065188208AC1A31045D4D3B5B2
+A208611855B500C23000A53E94FA6F8BFBBAD55BEC746B5DA3AAD422983128A9
+412A7909C939B2BC44CE04981466BA386971D115B42039EDAF5A17200036D687
+66DA3945E0FB1527B57515EC3F9D984EE0FBFEE1B25B768235CBF3CBF3F91C71
+1C81315E4FB86B4C61A8012CA5C4A03F80EFFB466D683EC8AA67275DE71117B8
+14020419932844013F2F11073EA230411C06280D588B28821768032D0CC3AA36
+40148600826A96E8C9D7B3FB0C2665AB046A8E29B82E52519AD43B6EC43B0487
+141A98600C79C950328E827130610A71D8A93627BCF5B2F36A7812D34505DFF7
+B1B3734A2F8C423DF841B0C859555D2A8910023FF01F5C76EF4EB0EE1D1CEC9F
+3D7B5AAEAF0FA95D52A6319FA8152000A0CBF50CFA188FC68B4FE5FA35487353
+1F27CDBF8DBA54AA3193548122E7402919D252C04F4B847E8A38F2100421A230
+401845F003BDB6811FEA621661A85D635118218E4304BE5F5565A9BAD9167DCF
+00690359B538A500970C82E98A299A5BEAE9389C95909C410A0EC118A4641065
+698E31142543C105B8D0253095C97C22948048409E587DEA1A97FA1DB5EB884B
+A5B0B1B18133A74F23CF8BAA0A76CD59DD6754209C010AA09EDF191000968035
+CFF3623C9E96A7B6B763422994541D2A40532D08A3085B5B5B35583B057E5516
+6C11CBCB86C820BB8D6D623C138210141260B9002D0BF85909DFCB11F833F442
+5DB0228A6284818F308A1144318230826F8A58584EECF9BE2E64514D5A7427C4
+D90FC5240C01CEE43B33530036E35F39D9FEAA394B408A85A92FBAC8AFAC26FC
+D939615C70082E4C791F662AA80808AEC39C4A306D20310EC13527CD0A86926B
+7033337B4149ABCD3B1FA22D6FB462DC5B6FA173BB697335CF514AE2A60BE7B1
+BEBE8E59F2A42E08E2D1BABE97F34F4801986273928B64592F962D87A9A6B359
+394F92B817F734AB26CD19994DA34BCFCA3CB3731A8F3FF638F842A655CBF05A
+A2EFB87BECF3B7BFD8B6554A50839710024528B82290828015021E57F0730EDF
+2308FC4497D7F429A2C0D73360E31841A86B2104810F2F08B41F915210AAC517
+603C104EDD273BFB49CF1CADA7B9D8226B52D93958765B54EB9D0A51CFB1D280
+05A4E0E69F3085D24A0D58292158095E161042A2604CBB92A45E9F8A0B096EA7
+BF48EBCBD4EF8A429736B2FE4D543DBF96B4C87CA410E7103E00002000494441
+5452E8C57DDCFD9C3BAB693CBEEF577AAA7444BF520A6080AD0F26A5EAC845D5
+B40CAC608CA9E964E6D4924213A02D371608C1C6E62636B7B6B0BFBFEFB4E534
+5C39E45ACFDAF1FC8A3441EB7EBDAE33BAC6AEA3FD92DAC3A0A707534842C124
+8180045740CE3928E5A059098FCE4189AAA676EB67AA8B4600A67614A1060814
+8A7A90849AD4CC6EB05AF0D839574A7048691CEE4A3A6055E0B60E9550BA9220
+E7288500171AF45CC86AAE9732F3BD94225066FC4DB13F6DE02CE19A752DAEAE
+03D78E84E0B8EDD65B70F3850BD83BD4894D2E589BFF24CAB28054A8AB272EA1
+953305C69389F66D4691C14A3750EDEF200C71FEFC798CC7E3BA7C0DD0CD5097
+185ED5B90DBDB5E3BC0ED1D36EA7ED79A9EB5C91AA46142C3706201401585D1B
+4C391FB97DD112B5250B65AB07EA688CADE0D7980C6838495BFCD979FBB0130D
+1D1DD5EA7112440312B5AF93982FD9F2779767D67D558BC7AE1520897DA7DD6F
+CF1ADB2F7DC90B412845599606A8B403A8A8D41C3B86AB6829580921982709A2
+4984CDCD8D958B09BBC0DD3EB58DB367CFE2F1279E407361999AAB2EE2CCB84B
+2A8EEAF04C97192F01687D7607DB7658B382B322662BDA52336F9743D7BFADBE
+4A958286B36C38694875BEE3A223CE9338F7726F6D45B6055F9D2FAC608A212E
+D42068B4A4EC3DEDB67393E68F6B4BADB1D32A9B9E52FEA2FB5E80DB6FBD0D97
+F70E0010F89E0705DA00A9FD308B3CD3FA3AC8B13D5D09D6B264D8DBDFD7457A
+4D8DAB63014B3DDC74E102E6F319E6F344D7596A3C584378B738A07B4C35CEAD
+A363ED016B89FF854697C198D417A109CC954400B444D532B1BA0C5F2B8E7693
+7B8D4DFE200A70271413D5EED6E22D16307F85405E250A013056E28EDB6FC7AB
+5F753FF2A2445116A6CA4C93ABC280B52C7509782E24C409BAB2D2E94808C174
+3AC3D1D108799E5755496C364EF35F5DFB33EEF570E1A69B118481D141168546
+9B8BB9FB974978D2F16B71BBC9CD6AF0D69E08C030A4EEDB2CD095F3A6168753
+8D23687C751D8DAB25805ED98F633A796DF4D4E5A3C518C7E6E626BEE4F5AF47
+BFDFC764A6ABAD7BA6BC936F6A74D9BABA8402799683718E82CB4A0AADA26E03
+0B35A71452E2F06804CFA3581B0E11F8BE3E832E5305749593CDAD2D9C3F7F01
+8F3FF6985EB2C6182A2742C7B231222D10DA632BB82D6070EAA81A57D58D8675
+D2257A55F3D485EB557DE3AA2D035AEB47EA026EF55735F72A0BF96EBDB5B391
+D60E05029302B59ADA22BF7548AF5018E32D6FFA125CBCE3563CB9BB0F29147C
+EA43429A477774554990E529CA32475694E0EA642B597682957A54E93A4B0C04
+405196381C8DA014D01FF4E179BEE31DA00BAE2C210482C0C7E9D3672085C0EE
+EE65E82A788DF8EBF23169EBADAD3348FBFC2E6AAAABCD1776958EFF7A39E093
+B0A545AEA83AF677837C811557BF3B2DFA8E8D2EB36BA19DAB25E70530C6D1EB
+C578CB9BBF0C2F7AC10BB07F3442C9B8AEBEE81150E92D58FF6991204D13CCB3
+1C69C9404EA0AF024BC01A0481170401C9F3A2B2448BBCC47832865412BD5EAF
+7269B5B3B188E1BA4270044180D367CE4041E1607F5F87D4BA0C273481DA1897
+05BCB6744DFBAF137F6E08F7EA007A52B28C73A5DAD8E2A0AAC1549B96D10A0F
+0EDCAFAFE9DC5FFC94169BB97A98B647B0640CFD7E1F6F7BCB97E3FE97BF0C87
+4763144501CF23F0A8DFAA54084821911705B2244596E798A539DA7EF455D40D
+563F38EB7BDEBA3485092C1A8AA2C4743285E00271AFB774016142083821E042
+CF093FB5730684101C1E1C1893DA1D010337D209DD95BB9A079C048C36E01D3E
+DDE0D7570B60651C436DE9BDC2A26A33F79363C6319C88322BCD2C98FC7ACB76
+A67178958A70D24EB4C649291425C3A9ED2D7CEDDBBE0A2F7EE17D188DC7C88B
+1C14148167E65B014E944A821505D2F91C599EE1689AC0568C3F292DD159B161
+BF84863140084ACE21E7B3CA905A0958CE2104471846D83E751A9E1760747460
+0A6628E818CBF2812144018A5625CE17CEED34D0ECB9F68B5DA2A45A85FE84A3
+75726C7573BC2BBA7C0997B66AAE5A76F0BA50737CA45971F0CE4B17F1F6B77E
+252E5EBC1DA3C91445516A75D0F7EA0FB9F2454B147981743E439264D83D9AA0
+E4A2D303B3AAD2402758B91443CE5967810A62A225499A8271865E4FEBB06D75
+00D0511F1DEF1688A3109B9B9BF07D1FE3D1118A22772CF4E6D02CF3062C1BC0
+E34E53C4F297E6ECCB2B686991339E841A7A328ED135BB2EBE823B2E3BF5EAD8
+792731CEE1511FAF79D5FD78EB5BDE8CAD8D4D8CC6133093F3EC797539780554
+D1BC344D91CC269826733C7E7088AC6066F9D32609109C0BCBA5EED46EB072E1
+DB29085D640159E40518D3800D820036B9A46D707153882B8A22F4077D846188
+C9D82C15A45ADF5203BF64513B68334AD2DA6820DD11FF8A0014CD30EE15D0A2
+71D4853E2C9C55ED380998962ABC8E28AF5481669F56C3F0A965064829C138C7
+D93367F0E637BE01AF79F5FD8052184FC6E082EBC8A0A74BE44BEBA9500A5C72
+646982D97882F17486472F1F2C052AA0CB899E0B8BA5ABAC74AB01CA2C6763BE
+90AEA609A508A3186591633A9D5669789E47F572ECA4E902E394823181B264E8
+F77B38B5731A7192603ED35FA65276F91DFCFFED7D7990645959EFEF9C73D7CC
+ACCADABAAB979AEEE9D9877118961902661C370642211044101411505CD00059
+041F08068B8808038628330801E2026188EB8BA786213E7D1A3EB7F71014E581
+32CCDA5D7B65E6DDEF59DE1FE79C7B6F6ED555DDD53D0BFD4567572E376FDEE5
+77BFFB9DEF7CDFEFD7C80634B13B3CA0029ADB352148DF2D65703E832D1B334E
+C8C08F8FFFEB6755D8093D0366F76B3256275F0155266034481EF39E23C9AC73
+44AA520A45A99DCCB7DC7E1B9EFBEC67E1E4652B88E2084992424A090A4035C0
+C7A08BF1CB92238A0618F47BD8D8DEC67D673650703115A8803E1E4291D6B4CF
+2782F5A6C31EF9527CF6FC1B210461AB8D2CCF10C711F23C471004608E53E55C
+4130E46985D0DAA04110206C695AA1248E90A589E6EF570A304268F534647377
+46BD677DD2C9D052C35F3E9064806A826EC4B34D195CED860F3504AC615FB957
+5C8D5E20BB6702F6B84E65D95408AEBDFA2A3CE759DF8E5B9EFC2400C0D6F6B6
+6ECF6EEC70F3D04AA9254A7BBD1EA24184FB57D7717A630742A9B3F4CE11F34F
+1D9EB6C464461607EDDD5327C3D66EB7E0B91EA2C100FD5E1F4118C0F5BCAAD2
+7FB89CD048B39725B23C47BBDDC66C770EEDCE0C9224429E65505282281D638E
+1F91615F5F0174B46A65E830102890465D803A0FF40EDF76A779D3DDBFBDE79F
+415D17303ACCD717F5D01AEDEB6AD1DD2F95B1779402E71C94529C3A7912DFF4
+8DB7E2F6DB6E4577660683483B23CB123EE9BB6559228E220CA201B67B03DC7B
+7A0D5B83446B89EDE17853C2A0088E4FFB7C22588590EE448ACB29A6148C7883
+877EAF8F388EC0721781EF1B2F3B2EAFC309415972E4798E30D0EACEDDEE1C44
+9B2349129445A62B950899302C42ED5D8730DAA84C423362C530808DCBAE8B46
+0EC2EDDA838169A1AC799300987ED79A36BF5F85008DF7F7E587A76D130C484D
+22FFD4E597E39B6EBB154F7DCA2D989BEB224D53ACADAFEBC1B62DCC19396E42
+08A4863C384A629C59DFC6FD6B9BC84B0E87D23D0D100821701C8AADD25D9EB6
+CC14B0F22C4D391CB2B76930BDC312CC71B0B8B88856AB85EDED2DF4FB03DD0F
+65C4C3C6C5CE08382F511425E224451806E8CCB43133DB85941DE45986B2C84D
+78609DE1A8079DE251C9F02264748169C1F8E87EED6DEF1BCF4662C586871BF2
+C96A82671C59E7D943CDBD0CAE26787F035CADE52A10F83EAEBBF61A3CF529B7
+E029373F1933B333489204A7CF9C81101C50F55D913400AB8B510A24718C388E
+B1DD1FE0BE33EBD8EA47B07249FB31A214D64AFFC4B4CF274F0A106C174506EA
+79FBBA5DDA8E82CE4C07ED761B3BDB3BD836692ACFF7E11A29F29A73C082568F
+36F322479CC468852D74DA6D04AD1682B0A5ABE6CB02D2CAF98C78DAA9C9A8D1
+61BF41EEBEFDA81A1BB2D81DDECD854E7D39F6D9A441D3D0D361976AAF01029C
+B50674F4B7A59410A58084C25CB78B6BAEBA124FB9F9665C7FED3508C2005114
+E1FEFB1F00171C4461B885C9F0982968D2B52449906529E224C5998D6D9CDED8
+46C185D624DBE7DD4A295D80DEA67C7F0D832D8FFE9F80CA5C4AE5EB9EFCFD99
+94120E737078F930BA735D6C6E6E626767075996C2F7B41099D5781A9E480078
+C99167050651843008D069B7D16EB51084A191042A210C3B5D5D1C3216A44E49
+4F8D8DD8CECFEC999B34286F9882DDD451704FB9E74F793D1CBA4EBA50ACA76D
+787A55B3AE282874DA2D1CBBE2186EB8FE3A3CEEFAEBB07CF830A494D8E9F711
+9F3903C1AD7CA8D1AA65B4E6845000171C599220CB33A46986ADDE0067B67A48
+B25C0BE8317A4E619530C2C86D26FE79DA3213C1FA6FABC9573C82B544A9CBAC
+BBDFAFD99EA0300C71E2C465585A5AC2C6FA3AB6777690A6193CCFD583303A3A
+030610A967BFF2BC8025DBE8B45AE8743A08C31041D882AAC4CA44C32D35B773
+D8A5DA78F6406C244C9C3696993AF83211C0785D80F9789273AD8CC0265A8771
+AFAAEBD77A29212428D18270478F2CE3CA2B2EC7B5D75C8323CBCBF05C177192
+E0BE071E1862286F16D2DBC649A5B427CDF30279916935C6418CCD5E8424CDB5
+88316313E723F76A96EBD565EA0BD3969908D6D3FD727D3670BE1CE5FC32C6D8
+84A87FEF26A504A50CB3B333E8CECE224913ACADAE6163731359BF0FD7D5E414
+CC618624A3015A41742F5251E8986867074110A0D3EEA0D369EB419D61D39682
+EB524400A319D83AB46D14749F0B72ABC1D368B2A9F1F9D0FBE770DCA63AD746
+56408DA4A8A4E64EB54A288EEB60716111870F2FE18ACB4FE1C4CA0A161616E0
+FB1ED234C1DAFA1AE2383529A85ABF76B8A7CED05D96258A22479E17288A0283
+24C54E9420CD4ACD1F41ED793B77B3A9320762DB21EAEFA72D3711AC7FF407BF
+2F7FF2152FFEB3F5A47CBA4D3D9DEFC608A189B766666630D79DC3F124C6C6FA
+06D6D6D690C43140293CD7D53361CCA63ACCED47E82BBE2C4BA469867E7F00D7
+73EB30A1AD81EBF981613154205201C47830C3EA461AD357CD51ED59B77FEF7B
+5AFF991083EE1A0160386E5513BF671B1065DD212B253CD743BBAD5BE18F1D3D
+82A3478EE0D0D221CCCECE404A89384D706675154992A2288BA1F4D3F018426F
+84100265511ABAA1025951224A32C46986BC1420D4EAEEEA2CCF5E07ABD34C98
+8B6296CA2F32A82F4F5B6EEA3C6CE092CF860E06891033AE73503A41FA401310
+03DA2E4E9CB80C9B9B5B583D7306DBBD1EF22CD332E4AEA78911CCADC8025742
+820B81A22C902429767A7DDD76E3FB68B55AE8B45B68852DAD81CA5CC01C50DB
+BE38310DB66F6BE433C7F6F06C6F4CF9AC710BAF1A07A5AA40A9A43402CE1481
+1FA0D50A3137D7C5C2FC3C9616173137D745BBDDD6D3E0267C5A5D5F439A659A
+7C4DD63D63CDC192459B95DC2C4BCD8755728EA228916405D2BC0497AAE652A0
+0717FBDB1043F1122D57FCE1ABDFFEFEA98A2953C1FADE5FFBF4E77EE8252FFC
+8B6820BE4BA9F3F7AEA3268DA696EF073879F20456568E238A22ACAFAF637575
+0DFDFE00B9945AFDDA75354942234CD03363D2788102699AA1D71FC0610CAEE7
+5627B4D50AD10A43048666C8A514149A14592AD3F16AA60DEAF4D8B8594F375C
+316AE3023904B4690F980E4EAB50ADDF5210CAD661980721088350B780308A4E
+BB03CFF33037D7C54CA78356AB05CFF7E03A2EB45CBDBEDB9C5E5D439665280A
+4D88518F3F4D586500AAC72130A4199AB9A5E2C712A2A218B20C2E68B09D1FB4
+2925916539425ADE1750F907BB2DBB6B2BF67CC83EBA1AF3E77229E9F9C625D3
+4C99DB0E630C8B8B0B38746809575D79257ABD1ED6D6D7B1BEBE81FE60802C4D
+C11C070E73AAF85636ABBCA4ACCA12B33C471C27D8DE219590B0A60DF2F5002D
+F0110641C585E53AE66220C4DCE2F449515242131669304BA240A5A85AA54128
+A802949D64507A964CB760EB1321A50235A8B1F5C184522333AF5B8440803008
+D06AB7E01835EC56CB3EA7703D4F730B18BEDC5E7F802CCF91E719F2A230A598
+75E1513539D24C11A2CE0C082134938B28C1B9D693D5641935C55073EC70A14C
+2920CF73089E6396F14FFDE4DBDFBFAB42F6AE60EDB6823F5FE9923FF8AFEDE2
+BB5D67D745CFDB6C5CAB14E0FB3E8E1D3B86E32BC751962576B67B585D3D83B5
+B50DF4FA3DA4490EA55425754E191BE9BCD59E1B848098AC424C12731BD36070
+1C47530AB95E45A11918F262AF31E8B3CB30C7356D640A84E80638CA683DAB33
+65A6AC9A0E36279F325A5D708490EA0E03A09287E74260A7D7AB9A318B42FFE5
+66002565CD50656FE575B2DEDEDEF5B64A9312E25C7F57871486150504128655
+C66EE5050668D384E048D3145D477D6DB1E57DF46CCB93B3A5A59E71EB936F76
+E78FFCB970DBF341E0EAFC9B09AE9919095266026ED3C9A8632B56CD5A31460D
+481ADFB3DF69BCDF7C30B35EDD11E982125D4F391844D858DFC0EADA1AB6B6B6
+30886233D050BA93D271AAEF5AC6C30A4EB406956591B1AD39B4B1FD8C3A701C
+CD22E29A419F063883EB68FE2CCF5E28A658470B8398F557E0696436CC6B45CC
+E8DDDC766D759BE5BB6A2A610F8FF9ED48BD5E17AA1941BD84ED71B274EB4A6A
+1E29A2CCB435A500612084EABB01EAD0E52C3019CE8953AB2B611D846596B439
+D986E30026C656524AC4490C9125D8BEE78B6FFAC4A77FEF7D6703EB59DDE5BF
+DF7B3AFAB1673E6BFB1FBFF01FF365291078178F325241F32671CE352F95E761
+79F9308E1F3B0AA51492384614C7D8DADEC699D5356C6F6F238A62A469A67566
+CD8175CCC5A23DB03EC1D28E6487D236BA1E821043253F92CEB1830B7BC1D627
+66383F39DEF13B3C63376A761D98F8FDC6E7D5A536CCEC2285A86EF14AA1BA58
+1973C05C4F17C79BDF5740C514732EF9F38330A514F23C07CF328454E15FBFFA
+60B897EFED0A564288F3FA37BCE155AF7DFD1BAFF8E8DD1FC61F7FF66FE0CECD
+C3B9C814A77ABCAAE97884A1FA761C07DDB9392C2D2DE18A53A74008D19A4C51
+845EBF8F9D9D1E4E9F3E83FE6080FE60A047B6716CF2BE0D0FEEB08A0FCB26C1
+353864ED7D4D5C59798AB11A078C01B406E978D559ED75C7BF678E7B63C06563
+4DCD7105A56FDB803221103531B78B76A76DC217477376510AA5249444150E3C
+5C006D5A511448E30801E110C4C3F54FB8F94717970EFDD9E6C6FA3FEEF6BD5D
+C17AFDF58FBBF5E52F7FF94B98E3E239CF7D2EEE7FF0017CE13FEF43B73B77B0
+5B7F0E663D4A09AD60E73007ED760BDD6E17975F7E527B4FA9A718FBBD3E9234
+C5FAFA067676FAD8E9ED6063630B7999A3DF1F20CB728018C63F256BB0515AF5
+98D59EB4BEED8DDDE6C92888C73FAF63DC861970DAF7148629467538E2698188
+765815BA077E00E63AF03CCF543D1228A52F685E8113552FD4C36DBA04B14412
+47F014072845A98085F9F963D7DF78D32B0821FFA476B99A7605EB77BFE0BBBF
+F7F29327177BBD1DB467BA78C9F77D1FB6EEFA081EDA1AA03B3B7BF07B73AE66
+4E889012E05C57805106D775E0BA0EE666BB705D078EAB19B02DBFBE14025BDB
+3B7A749D65D8DADAC6FAE626B22C4392A4BA772849AA5084730EA994E6E4E7AA
+1EDC34D269D5644313AC687C66BC3933CC7A7A2E9D19023CCDD8ED3A2E5AAD36
+5AAD10CCD1600C82D0A4EB68E5319BBCAE52D631AF7C8480B369B60C318E6330
+51803120571420FA4E77E2D415DFF9C5CF7FEE6E009F9FB68EA9605D3A74E8CA
+CF7CE6F79E2585409EE75052E2E8CA49FCE04B5F828F7DF237B1D68BD0ED761F
+C1A4E7F54C4F5116FAE49A021BC7D1D3BF8C322C1F3E5CC7B284C292DB0A2E50
+726E5A6EF485600772A5D05CAB357BA0AAD254157BA0D4FC4DAA497FD918C537
+277DA421D2B5618004744ED692125B509AED1226FD2485A1D27C18E3CFBD9806
+6A89388E4178069701B932D0339B3DBFB078ECF22BAF7E1ECE05ACB7DF7EFB33
+AEBDE69A138328AA7402449AE28A6BAEC70FBFE265F8F5DFFA344E6FF634601F
+156AD7A4F2C0CA509F2BAA014485A86EF9001AB75E17A4D532EFE9CA026912F9
+968FB562BBB6601D65B4AE58B035E8EAEF080362FD3DEB21859480F9AE66CA96
+0DF66C0BCC87F338EECFF4BC7F89388AC1443E0C546384E88CD1E5575EF96CD7
+F3EE2C8B62A262CB5494DD71C733BE9D50822449ABE937CEB5F0F0C92BAEC18F
+BCE265B86A6519835E0FFBE92A78245B73AAD3DE566BE593698474D31F45C5FB
+6F1EBCAC1E42F01AA08D94151EE15E723F26A544966518F4FB704406CFA128E1
+4ECCE512423037BFF0B823C78EDF306D7D13C17A7879B97BF4D8B11BB22C479A
+A528464E421447583AB68297BFEC0770D37557201A689283E60CCA25FB3A3633
+2B99240992284240346F84A01EA8CDA99366F6450F60FD20681F5E3EF28469AB
+9D18065C79D555471717171793244196E7804215D3D995976589D64C172F78C1
+0B31F3677F82CF7DF1CBC8A0EB57AB0A9E4BF67564A6B84702A5D0D5718AE768
+33209C994521002A785D62A950953A6A59215D6474E4D8CA3EDB5A5CEF94EBB9
+B371922035AAD895C0B091EBA6846A860EC7C5D36EFF667021F0EF5FFA0A7200
+2A0841193B0BFBEB257BEC9802513A6E2F0C89B0234A94698CAC3D836ED886CA
+0BBDA49999ABC1AA4CEE9880390E82303839ED572682F5E65B6EB9B6C84BC64B
+5D1442402AA1B661D91D0A40A1284A70E2A21FC5989F010451C8A1802080EBBA
+17E4F05CB2479029858217FA2ECC4B5091611027E8A72596C3198441508D05F4
+E26A0CB494103087A133337BF5B49F9908D6A3C756AED2E91EDDBD383A2B53CD
+095B55EC2C4796E5480A0ED18F30DF916044219312D20F1004BA7DE5923D86CC
+6445B8D4034F5E9660AA84C8526C2599D6112104AEEB200C03944D55ECD1D249
+284849E15006DFF3BAD37E729AD07016C7095CD74159F2F11999861C26A0793A
+9592A0944048602BCAD0E102332D0EA10452C9E1079A7DE502551A5EB28B68B6
+0EA1A840CA417981284D911442974E1202A9147CCF83EF0770D2CCA8B64CAAF3
+050411E6AECDB269BF3B11AC45510EE22441AB15EA1CEB6881051D2ECE10A648
+BAB94C9C0B143CC66C8BA3058E524948C1E107017CCF7F94E4662F59D3AC1A4B
+5972035201260B5D93917308A94B209B67B6D56A21F07D5DBF3B05AC0ABADF8E
+68A1E1FD290C266972268A62ED594755B19B73E22643A015E50230CA204CFA8A
+9A56929DB4405A4ACCB44AB46480526A3947DF143F934BAEF6116F4AA95A2B96
+5B907214458E382B5048D46928FB1DE832CCF9F9795D5C43D9B02AB654F57305
+7013B73AAE7BEFB4ED980CD6245D1B4403B4DBAD09AAD8755ECC3E574AA2DD6E
+C3F37DA469AA5752156F5070A9B0131748728E4E58A015701442F7FFBB7E8020
+F0E1B956D9E5923D52CCCAC197A52685269283A912795E22CE4A944AD5E59223
+DF554AA1D56AE1F0A1433A2D45191C77B4F54702A6CC51083DB1C418FBDAB4ED
+99A68ABDB37CF850D9EDCEB976EEB91E608D2B63130041D8C2EC4C0749928CAD
+8F100D76A1805E5A222D06E80405C22007780E5106287DED693D43E8065C4AD5
+3E1C66DB8CECA049490E2A05A8D4BC6471CEC1952EA86196C78A288CE629A514
+585C5CC4D2C222B676B6ABEAB5DA9B366A72A5426906F2206473DAB64DE1BA12
+7267A7572C2D25AEE33A952AF6509DE608D3B5EBBA585A5CC2DAFA8659CB64A8
+E9C09BA09F95484B8E30CFD10A33501E4296010AD787675A4C5C4F4FCDA94BA8
+BDA066015A5596710EAA38A812906581382F91965AD19B98D9A7FAF48E153CEA
+1894505C75E52984A10FBE29768957F56F2B2941088510727F032C42888A9384
+0F060374663AF6D7AB39DD49D5F00404870E1F42FBBEFB1027E9C8A89F0CEF13
+B1312D41524AE422839F71847E8A20F0812280CC0330DF83E7EB0159D3E35EB2
+F33432EC41CB528F2388D21E94CA1245AEF902322E2115A95A59A69D81E6FB42
+081C3AB484EBAEBE16595E0020705CC7D43D6048B75629D4258E4AA16A079B60
+5355B18594E8F5FB703DD750FC4CA88647ED61292168773A583E7204F7DC734F
+635D8D154F50C5D6E92F829C4B14B2449C0BF86E86D0F710063E641EA0F43481
+85E77BF0BD40530F1102756970B6773349796E0649795142720E254A407150A1
+7902F2A240566AE0541C03CD9338A12F72F47708809B6EBC110B0B5DDCFFE069
+53B3EB4EF4AC524A482EA000884A7065B2ED5A7CDD33F4EBAD564B8375B471AC
+191698C7D1A347B1BEBE8E388EC72602C8C8ABE14650BD1E0520E30A85289064
+1C9E9BA11578E0BE0FE1FB28DC00AE1FC0F57D049E67D809DD2A8EDE0F7FCA63
+D60C108430BC005C1876951242689052C9A178095E6A128B9C0B705917944FBF
+8B9191BFC39F715E626565054F7EE21390E6398414BA178CAA89F1AA6EC52E75
+5DF059766B2A5829A14892149B9B9BBACBD471A6B46C0C3F5AED362EBBEC327C
+E52B350BCCE86E4D6899AB3CB0F5E094685E805C2814490E37E7F0DD14BEE322
+085CB87E00EEFA609E0FD70F7485BDE76B2E00D7A9E8351FEB1906D500A69572
+2A8A0245C9210C18951420BC84121CE0058ABC40510A64A56E7FB1D7F7BEC2AC
+8687B5ADDF520A78BE8F6FFDE6DB313B3383FB1F7A089450384EA396B891BA12
+52A028727029C0F7709EA67B56A22BD8D7D637E0F93E663A9D9A107817B0524A
+71F8F0610C06039C3E7D1AB4E246AF5B3B1A4F86761C84A0569CD3B5F4C4B472
+4810641C280447C205DCA480EF3AF03DDDF6E1FB1E1CD747E605705DED713DDF
+AFF8003CCF83E7B9F07C5FB7333FCA80DC4CF708A1EB636DDEB3304417BC2C21
+7909294BC85283539405CA92A3C84B649C8373056E5246800DC3F6781C2660D9
+4676B69BE25B9FF654DCF80D37606373ABE237A3A6D2CA7A7C05ADB196E719CA
+BC40C175C7C5D92E955DC3004A08D234C3FAC686A14E0C1AF1EB2439775415F7
+2B2B2BC8B214BD5ECFA4BB86F7D8FE3F3E961C3D36F5FF14758CCB4120B94226
+385821E0A5391C16C3370D749EEBC2F77DED6D83108EE7C1F37CF87E00D773E1
+BA1AE0AEE3C0310FD620CB40F55BF5DF8334DBC837FA108DA26F2134E105B785
+DFBC84E05AA689970504E790A2842A0B2D2C92EBC2EEA22C90950225D70F2E55
+558EA7F70780B23AB4FBB149F744C357C54B3CE9894FC433EF783AD234439264
+D5B1B40045633F39E7C8D244531571B9A7633C658065D2139A5101FDDE001E73
+D09D9F83EF79F5C87062FC4A21A484EB7958B9EC0404BF074992A20A5F2779D4
+91B7AC231ECBDE91119093BACE962B022908B8924878018796F0D21CAEC3E039
+0ECF5017A300001A12494441545C97E9693F5703D9F53C38AEAB99075D2D89E4
+BA9E26D4609659AFA9364387F525141ABD550A02A6AD45D84E039DEAB1FD5852
+D9561509616E81B63D7AA8CFAA4A211586DA474096258401242F4B942587147A
+06A928398A92830B89C2005399EDD2770E02466C5FD708552608CE4B159BE8E3
+509639AEB9EA6ABCE079DF09C628065104100287B1FAA244CDEDC54589344990
+1705E23CDFF3253345BBD5918EE3A8A2D4AAD85229ECF4FB0001666666E17ADE
+2E6025A09C403A0EDAAD36564E9CC0030FDCAFB9AAD81E2BAF1AF190C99A0D7D
+40C8D062D5F33ADED5E0122050924070895C02499181D11C0E237099AECD755D
+17AEA315125D87C1753DC0B0C610CA862BCC08D5610A215084D6D43B8D9E2CDB
+1858F764D53DFFB6554649AEDF334D805218F0726EC02B20CABC022117257861
+002984A96032CD898D46450D4C050902492C91DCD07FB06F9E5700640EBC520A
+4559E0FA6BAFC1CB5EF2BD9899E9606D630B00E0BA0C4AD11AACE6E211E04807
+09F22C453F4E5118AFBA97ED990856CFF3663CCF0D92243160D1A9AC7E7F0029
+952153F0C615B19BA0953A11DCEE7470FCF80A4E9F7E085992365CE5E45B4AFD
+7C5280A02AA456B7E869AB335EB8A2DBB1D9024A210945A1088824280B0152CA
+1AEC4800DBB70FA04E18EBBB8CE5F05784542742CA063B8AD2DEB47A2DEDE71A
+C09012AA2277AB9B00AB366AD3406849D26C6BB5AAD6032850804A1009284500
+235462EB4387BDE7A89D3B4C87B290520BBADDF4F86FC00F7CEF8BD19DEB627D
+63134ACA2A9CAAABAA1484D9C7284A90A6297A5182242FF715624DCBB32E1342
+02214D206EE244A114A2388610A202ECF4C11620B880EB3A68B73B3876EC38D6
+565791267175AFB769926636A08A01AA6D197D7F1C95A4FA7FDAE1258DE59AEF
+0CE78E81FA544A0002FABF2ADE82186ABD6E4E17DA44B7F576187ABFEE881DCA
+31424149FB99BE2DDB0E5AD9DC36050D48AA3FA8C78523C0538D47E3CDE9F0DC
+2B70878FAD105A24F85B6EBF0DDFF3FCEF421806D8DCDE81520A0E6B785373F1
+4829012910F563A47184DE20422F4AF63D169832C05233C2C45D9376CF72D087
+2DADC36A4B063192DAE244800B0ECF9508C3168E1C3D86CD8D7544D1405F7143
+1B3B9EBF1BBDFD8FD9C8CE12D2C47ABDBE5188D71989E9076BD24F6BF24BA567
+DF0801A4F56A9AD6524905AD5E4A3544A802B12CD3448D5D50C4BC5F5DB8869B
+C26EEF1894CCE7B61564F4C349CB9FBFD5DBAC0014798176BB8DE73DE7D9F8F6
+677C1B8410D8E9F5B547A5146878541BD743490C06119238C2763FC6C64E84F1
+A351FDDED4999E2942C33CB40C77138D5214BC04EFF711B442F85E3035241002
+284B3DAD1704010E1D5E86EB7B18F4FA50528CB569350758FAEC50D8A96832B4
+D434ABC169B15853B53778AF49ED592F84A9210FA72AF48D38BD6A5B2682AF91
+5A3B1BEEA666E186E2D57347AF30B1F2A99327F0A2173C1F373FF126C4498A38
+49745B0AD575ACCD5615A91444C131180C10C71136B67B58DDDA813261D6D86F
+288293413AB50F6A2258F352106992C53A6C1F37C61C4821100D0628BD127EE8
+6BB63A838261D06A6595927304418085854504418841AF8722CFAA51EBB89171
+E73B3AB822232FA678D50353C5AECEF724F435971D7EA309A631C0DA38782A96
+1A1F4C52C5DE03062D66F70B57A5248A82A3DD6EE38E6F7D1ABEF3D9DF81C387
+96D0EFF791E739A0141823A0AA0EA36C6894A729FA3B3B88A2011E5CDBC0EA56
+4FEFC214072101CC323E9551702258AF5D70719A4F9770B7A607590C6996A028
+720461A8533F96D29B0C4FC5EADA48ED61C33040E06B91B0381A400A3E82B909
+23260C836C574F3B1E55343E3B3F6FAA46D157BF3BF47AFC1960B39BF6F29C7C
+84275F0115E026C6AC766DCA6CCBB4AB636F6673A184503CFEC61BF09C677F07
+6EBAE10670CEB1BDBDAD750A544D2657DDC5A04991932446DF48B76B0DD748A7
+43A79A764C4A612A89DA44B02EB7A97BFFF6DEF6D0755D38AE83248ED1EFF54D
+0780A75BB1CD887A288E159A432ACF33B4C216666767D16AB7100F065A195B49
+105597A04DF2B964641036BEDB63E3B4F3C567B531E3776EF3FFC4C3B57BDA5D
+0D016BC857EE015FCD5F1FBE08F6F6EB53D66A402A95C2CAB1A378E61D77E09B
+6FBF0DAD3044B417B1E1A2C0201A201A4458DBDAC13D0FAD21C98B3D4963EAE9
+FC7D0A0D9742B6F773395AAED43489114531F23C4360041C264ECF826825C1A2
+44E0FB68B75AE8CE2F206CB79126314A7340186323039D71C43547F5E39F0C2F
+5581786C70B71F1B06C9346FBAFBB7F7FC338DC154138AF6C3DA9B8E85A6670D
+4F465E19902AA570F4C811DC7EDBADB8FDB6A761F9F061244982CDCDCDA156EA
+D1E36D1958068301A228C603AB1B7868631B5C48B03DF4DB11A2F51F7249F72B
+342C649E15D5C8F46CA6946E6F989DEDC2F703F4767630E8F7F4FCBCE76B62DB
+099307967A324D3384618076BB85B9B9799465893CCD509639949293C78D16BC
+64F82D3B31D078477BC121ECD671B53D5007660628531CADD9A6BDA862ABF13F
+CDF556CFF77881A8D137B4D9B241CA188E1F3F86A73DE529B8EDD6A7E2F0D212
+B22CC3EADA1A84E53223A4720C55AACF544EC5718C388AB0D5EBE3DE33EBD819
+24866E7FEFC7965182D3B9BF32EDF389605552E4495220F4D83E3C901EFD8561
+88C00F3088FAE8EDF490659901AD56C61E1F7C59E9CB1C7192A01586E8743A98
+9D9BD3EDBE798622CF874486876DCABD9ED4E0AD313D9487DAD395B8374FD88C
+4F4762C5065286C0A5147657C5DE7D0CAF377FFCD6BFCBA6556FD8A95F2105C2
+30C4F5D75E839B9FF4243CFEC61BB0B8B080344D71FACC19F092EB913B86EB96
+2D504B23369CC43106718C07D736B1B6D507B777C57D39010525055241DBD396
+9808D6B647BFC49043C8FDAB712AA54019C5E2D2126667BBD8DADCC24E6F0779
+96E9FE71D71DEE903503B10AB4598E288AD16A8546ABB585306C83F312659143
+70035AA5A6D01391894FEBD7D3F27BBBED94FE6F1C147BBCA9EF1EB8EE21489D
+E216F761B67D84F312AEE3E2D0A1253CEEBA6BF184C7DF882B4E9D82E7B94892
+04F7DDFF8096C984BED04709D40080738ED42862274986F59D3ECE6C6C21C9CB
+6AF66ABF26A50217020B4EF9B7D3969908D69D54FC5BC8D44EAED4DCB994D229
+68C53ADFF7717CE538E617E6B0B1BE815EBF0FA4D0E269AE5B57388DCC7C95BC
+449667E80F0608432D79D96975D0EECC0250284DC591D56A1D9B59BE00A9D3BD
+6495268FFF47874E93BF3CF1BB23181DCE064C1AD8D95FB19F19C66E294009C1
+ECCC0C4E9D3A89EBAFBB0ED75E7D15E6BA5D70CEB1B5BD8D388E6BEA52E341B5
+F20EAD46F15C7014B9161A4ED30CBD4184D5ED1EA224038CDCD2B94654420828
+C1E13AF24BD3969908D62FAE26F7524A4F0B29E628CEA5944C9B348A29333333
+98E9CC6805C18D75F47A3D6459AA4586ABB69961C01242509646197B10C3F376
+D06AB730D36E236C8508FD008082129A3C43570FD5B068E652EBE7E4FC813CED
+9E7CB6B72DAA1A7F9A89A621484F4C4D4D58FF0850359DBC30AA2D5AAFEBD0A1
+252C2F1FC615A74EE1CA53A7B0B4B80010824114E19E7BEF4596E595CA8B3DEE
+56BCCE44FB666C916BD2B5BCC02049B0D51F204A0B28A0922D3D1F1342804901
+17EAFF4E5B6622587FF733BF17BFF2A52FFA87DE805F4FCE43AC8D8054051B8C
+39985F58C0FCC23CA24184D5B5556C6FEF201AA460CC94EC99EA275BB34A4020
+A86ECDC88B02719260675B2B63B7DB2D74DA1DB45A01BCB0054AA0A73B950451
+B211BFEAF9F6B1098673DF29346A9747C3D211DB05C563E1EAE4F8751CB87A39
+5D8750577255EAE33333989B9BC5B16347B172FC388E1E398AEE4C074229A449
+8AFBEE7F00499AEA917F756193864A8D5EBF94D2880DE7288A421FFF34433F49
+91E61C8066AB665575FD1E0701930E8792288A023E155F7388FA8769CB4D45E2
+AC47FFD821E2E5568AE77CCDF22331C630BF308F85C505644641657D7D1D8341
+0405C0F57441B496C6D13323FA664F41888EB9F23CC7201AC071368D46AB1118
+6EB51004BE1153AB06FD43DEAB2A7B31E1C7FE760213064C433B39BCD8BE8F51
+FDC5E6F775EDB4AA24DAED8C9FEBBA08021F0BF3F3589C5FC0D2A1252C1F3E84
+D9995980E87E287B37CBB25C771298EFEADD374273C63958A597B228AA9EADBC
+2811A719E2AC0017DA095861BE83CAA2702E20788936157FF59AB7BF7F63DA72
+D355B11DF2D7B31EBEB491C9EBBC03EC22D5075D6A7AC34E07DDEE1C4E5E7E12
+DB9B5B38B3BA8AADAD2D44D1008C39B5A6932532360013902082A02C4A64598E
+FE605089BA856180B0D5423B0C0DCF92078739908D523F4208A000AA0E68B260
+6C27319C631A7BD6588600A8EA528D12B694904A546581841230D745B73B8B20
+08D09D9D45B7AB15B1BBDD6EC5AF5016259234C1D7EEBB0F6996A1280AC3DC67
+627B42868ACA893D1F529A3619DD69A041CA911525F2B28410D0E0A4F53938B0
+43A594E673951C81237F77B765A782F5E73FF2A9AD9F78F9F7FCFE46CADF2215
+033BE0B35AF3750AF89E879595E3387EFC18A238C6DADA1A56CFACA137E8231B
+64A0469AD2614E2D73693309262ED607384714C7A0741BAEE3C0F3746B4B1884
+08C35003390C74A780EBC021003383074AEA2C01811A1EC44C7A36D28E5295FD
+8DBE96C36DC7A3EC79B6F0C3715C84A15BA5893AEDB6961BF23CCCCDE90E8D30
+0CAA4E5ECE05D23CC7FAE626D224459667A67BD5D4CDC2A6EE68E545ED2D5E19
+010EDB962DB8D0ED3342A0E00225978D22261D22809C4316650F2638479E1598
+63FCAF3D22FF72B765770D48677DE737665DFE037D2E56D80594C19452820360
+8CA13B378785F9795C73F5D5E8F5FBD8D8D8C0DADA3AB6B777909A6270DB3335
+2A30ACB5856BF0A659064A22504AC098FE4E0560539B10047EA598ED194FEE38
+4644D8785EC7FC86555951AA3E911AD3B6E8791884FA230B7C00D0333F7A3B7C
+B88EA38144097C2F40100655872965AC6A8FE19C23CD736CF77AC8F3C274AFDA
+B617A96B5C89CDE4D539519DA9D313EE3AB6E555DB8C14B58A8C5030DE1CD57E
+5DA86AB4A659F976260ACC78FCEE57BFFDCEA96C2CC059C0FA9E8F7CEAFFBDFA
+E52FFAE060B3B8532A53517501CDC665A03A0D72E8D0128E1C5986E002711461
+757D1D5B9BDBD8D8D8C0208E21B24CDFDA8C401B6DE4F8EC5F4108A8004A2E80
+3C0749A921443662C85640D875EB0E5893A5D0D2EF5A315BB7BED086A2B6111A
+B63334661AD9D64358C94CF35163E64EF7B659663EDD7FA5D08F226C6E6D995B
+B10654C90584E410BCEE28B080AF068C8D19415225F16C17AC55C4E6556B8D0E
+59A95E8EE8E535480F6800BA47534AA1C84BE4798605A7FC238FC8CF9CED3B67
+1DEA777D7AF7E1367DF66A5A7C1B63FEC16CE91E4CB77AE83245C771B0B8B488
+E523CB8052C8B21CBD7E1F6BABAB58DFD8C44EAF87FE6080324D0D78B5C2B563
+00A655F90080802A554D7612324E946C67682AB56FC68CC277FDBAF2EC94629C
+4AC90E3E6C61860E0E6D713A4CD6421A01B81A5C75DACA7AC42A8D67BE575D88
+765DF5D1D2BAB6952412AFBC3DA15664998232D710891093AFD5698DBD75401D
+9C2955D7120428D6BBACFC99D7BCE3CEB3EA539D55C21D007EFA952FBEE52B5B
+C59FA6701603DFBF6812EEC42CC348FD1B8C3138AE6B62580A2915D23445BFDF
+C7EAEA1A3636B7B0B9B1892849AA140D806A6685520AEA18F01969497BCB2446
+29DB7AC8E1193653BA3D2A51DEC80B5BCFD98C116DEFD768FB4CF57B189F7EAE
+7EB3FAAC3EC9CAB41A49E8BB906C4C8C50AA25EC1D233BEF569DC80C50A81A19
+9BAAD855FCBC3B4C86276ECE53C25D0AA1DBA3F20447DDECC7DFF4CEF7DD7556
+10EE15AC00F0DA57BCE847BEB25D7C84B8017CCF7BD8C06A7FC3FE751883E33A
+F05CCF84675A23344952AC6FAC631045585FDF4014C558DFD840926615219994
+12CA1C747B21D85B3BA1AC4A8ED3C64902305D6478CAA3F6BECD8BA11EFC5480
+A83C6CCD5A52F1989A136F01E2380E82404F5FDB0A37DFD7693BDDCC580FEA84
+B04A86B26A687C38C06AF72D89136469822527BBFB6DEF7AEFABF60440EC210C
+B0F64B9FF89D5FFBB197BEF0AA7BFBF91B3965F0BC875FD0C2E650A59028516A
+9A23C610B642CCCC74B0B2720C8EE3EA5BAE90C8F214795E60676707ABABEB48
+732D2E3C184428CA02BDDE00FD411FA54205129B5D22FA5E6E3CA24DA5357805
+507BE01A98C380B61B5DC5FE8D13AA2F8A1AC07E10989CB1A3078061088731B4
+5A2DF841580D1AED3A84E1209046D755EC198817D7D234459A245860F9673B84
+BF793FDFDDD7F4543770DE7A5CE1C88351F6524A2998E7ED6F4B2F822973BB13
+D56B05CF7510F801BADD19388E0B87D59E594A598DAC078308FDFE00499AA0DF
+EF637BA78FCDAD4D082E901785261A33C2CB364D04EB298D11532C635ED59E93
+E864BAD584654C0FEA74ECCBD06E6B156CDFC831F99E0FC773AB421200C31C03
+523454B179C30B9FEBE4F88535A514D25457687559F10F5D56BEE275EFBC7367
+3FEBD81758DFFBD14F176F7BD5F7FD3825DC7D304E5F4C0981EF5FBC41D7B99A
+EDDFE75C98B88F824A0969C2883008C118C3D2E262C564389C0F35FC4C66D052
+0D646483C86282D030B7AF85AC46E3556BF6682BF710D780A11032A926CBD6D2
+5CB79D40983277FB8831051D67A769823449304BCB7F5E64F98B5FFBCE0FDCBF
+DF75ED3B79FAAEBB3E151DE9B8AFBCACC33E59E619F2A230F3841731EF7180D6
+04879E58281AF490A28EF31A53A9365E1D8DB3A73E4C4C5E27E651AD6B38B6B4
+1495BC62837E24DECAF763520824718C3449D0A5F9DF2DB0FC45AF7DE707BE76
+2EEB3AA74CFF3BEFFAEDF8509BFDF089597627CA4CA6795ECD9A3C966CDA2CD5
+BE1F8D81D2B4651E6BA694D2A2D45184224BB048B33F5C60C5F35FFFCE3BBF7A
+AEEB3CE769A977DDF5DBE5AF7CE2533F7579D7F9095714719224BAFD414DA72F
+B8645F0766D26B799E6330184015295F62D9FBDB94BFF875EFFCC0EAF9ACFADC
+EBFF8CDDF9D1DFBAFB2DAF7AE9975613F1CBBD24BD51B500DF8C6C2FD9D78999
+41A52DBACFF21C7996A145CA334B6EF19A37BDEBCE5D0B54F66A0732E1FFF377
+FDE65FADCCB2A71F6BC98F8B2C114992427001CDBC7110BF70C91ED16672B785
+F1A6451A6181667FBEEC664F3F28A0020728B2FE8E0F7D72FD973FFA1B3F7462
+86FC500BF9FD491C21CB33236A70C91E9366F2D19C73C47184288AE08A747BD9
+C9DE3CC78AE7BDE15D1FFCF783FCB9F30E0346ED173EFCEB9F7CDBAB5FF1BFA2
+52FE4C2F4F5F127311B45A217C3F38E89FBA640F9799012197BC2AD47694508B
+9EF8A316936F7FF3BB3FF8F90BF1B317A4EEEF5D1FFAC43D1FBCFBE3AF5C6EE1
+195D56FC559EC488E318455156536E97ECD1689A3D4648812CCB30180C90A531
+3A24FFFCB257BC7096962FB85040052E80676DDA7B3EF4B1BFFDF9D7BFF259A9
+10DFDFE3D9EBB2585C5F721FAD2084EF1F6CC5F925BBB06673C185D13780E468
+33F5B5794F7C3864F2D7DEF49E5FE95DE86DB8A0600580B77CE06329808FBEFB
+0D3FF2FBA52C5EDC17E247D398DF98973568092517C6C55FB2F33465EA6E2572
+A344C89440DB51F7CCFAEAE321551F7FF37B7FE5A18BB5357BAEBA3A28FBB937
+FE58B790F485B9643F9CC3BD056E400253B461E7CC99ADDE3A4BD595D378CD98
+ADE46255D7655D7BCAE03AF5BA9BB501A3B34DBB992D546E6A08EC67BA554A51
+7DA79A7A95E3DFABE8D9652D8EA1DF178D0A7F5D272095A8843586BE33F450FB
+ACBAAAFBB2F2B2002F391C48B41DF52F33AEFA64C8D4A7DFF28B1F3EAF9CE9B9
+D84507ABB577BFE927DA00F9C61CEC0733B87708EA2F787EA0AB8D3C0FAECB4C
+B3E025B05E68B05625894A4170CDF2589405A4E0F0898C3B8EFACB96834F50E0
+B36FBFF3C3FD8B029009F6B081B569EF7FCBABAFCB95F3FD299CE797C4BB86BA
+3E0B82007EE0C3775D5D29E5B04B603D40B02A05B3CDA2026859969AA44D0915
+32F59FB38EFC1F2DA67E8312FCCB5BDE7FF7C30E94470458AD7DE0ADAF9917A0
+7714709E5BC07BBA74BC23D4F511042102DF37226B06B82345D897C0BA47B09A
+75944658B834E5914409F8446EB41DF9972DA6FEBB4BD59FBEF5FD1FD9BC3867
+7E6FF688026BD37EE9675F7F4210FA6D9C38CF14C4BB5538FE49E6FAF0FCA002
+AEEF79608E03D7AA035E02EB1858859490A601B13083A4B2D05C615409F8543E
+E853F97721937FE1007F4109EE79EB9D0FBF179D648F58B036ED43EF78E3714E
+9CA72AC29E2599F724C9BC6B8917849EEBC10B0C784D67AAD3002F634C3FFF7A
+01AB117CD3ECE225CA82A3E48591C9D4D2990C3C7795FCB24FE5E71CA83FF1A8
+FADF3F7BE75DF75D9C33797EF6A8006BD3EEFAB9377982794F00A1B780BA4F97
+8E7F131CFF38F302DF753DB8BE8FD0D71C009EF1BE5AFED236193A8F7AB04A25
+21B8A80AB4B55683D1772D0BCDA2C239242F01C97357F1877C22BFE040FE4F10
+F94F3ED4E7DEF2BE0FA717E78C1D9C3DEAC0DAB48FBDE7BF5145D90221EC46C5
+9CA74AE6DD4898F738E206A7A8EBCF7A4668D8F37D04415001D7F77DCDC8C20C
+A145A3597037BBB860B560D400E59C6B6096427BCB52C79C9A51A5042F4B2DD5
+A4CA0193E557A992FFE111F16F4C89BF2750FFCA94DA78E37B7FF5515DA8F1A8
+06EBA87DE27D6F23849079E238270861978379B713D73BC1DCE04AEA3A871C2F
+3CC2DCC0F17CBFE2D1D2EAD89AC4C2719DDACB0E756FD60D7ECAA849D7236B05
+211524A41119B69C00C36055524228CD1560F9A7A4D29F092EC14D2F95F694D2
+00B344C14B88A2AC5A5C44A99F13C90511C51948B1C614FF2F2AC50314E26F08
+E4579992F74925B77FEADD1F7AEC9C5C3CC6C03ACD3EFDABBFE053C865EAB5AE
+238EB740214F50C7BB8930778179C165CCF51609652173DC0E610ED3BC02461D
+9B3280E87E5445EB2E56A0A60B92025ABDBAE12135E944DD532585049786BEA7
+D91A6D625021B86668E15AF15A492E95E00329450AC13789281E80129B54892F
+70897BA9E43B4CF1FF108A9C79DDDB7F317F788FF0C5B1AF0BB0EE667FFCC90F
+87E05997506789BAFE29EAB58E2951044AA925E2B82B8439C701E280D08EA2B4
+03500F840560CC5384D166585035FF29AB825D87094A0948514A2944A138CFA0
+44A1A488949491928A43960F41960F2845D625A139E1F94344945F85121B9C38
+BD1FFFE9773CEA62CC83B6AF7BB05EB2478F5DAA1FB9648F1AFBFF3832ED3C08
+2A64ED0000000049454E44AE426082
+</a:Content>
+</o:PictureFile>
+<o:PictureFile Id="o4">
+<a:ObjectID>6ED13C88-C2B8-4D0C-9B8A-B11351D5E2B6</a:ObjectID>
+<a:Name>Application Service</a:Name>
+<a:CreationDate>1703702231</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703702231</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:PictureID>8D5BFA49-11A6-40A6-B363-225F45ACB6BD</a:PictureID>
+<a:PictureType>3</a:PictureType>
+<a:Path>piclib://Architecture d&#39;entreprise.piclib#Software\Application Service.png</a:Path>
+<a:Content>89504E470D0A1A0A0000000D4948445200000080000000800806000000C33E61
+CB00001AC049444154789CED9D79901CD77DDF3FAFCFB96776F6C2E226C09B04
+490014ADCB344B9538B228587155E4542AB6A32A4656A85C558EEDB89CC8922A
+A95295FF523929520C2B3EFE4822A5948A2C9176D9814499A74401040F800700
+1237B0D87366E7EAE9EBE58FEE9EE9995D2C7677765724D8DFDA577DCCEC9BD7
+FDFBBEDFFBFD7EEFF7BA21418204091224489020418204091224489020418204
+0912244890204182040912244890204182040912244890204182040912244890
+2041820409122448902041820409127C002036F3C79E78ECF1E8F736F5776F10
+48802F7DF951B99E956E88201EF96F6F7C0E21BE072C00858DF88D1B18734039
+259BB7DEE31E3D179E937D0540AE0719D695008F3C79FC73C03787B2DAEEBBB6
+E5D9BB254DD650D7F3276E78CC341CDE9B6C72FC621DCBF69E4DD3FA837DEED1
+37003F2CB26F7F20CDB06E0478E4C9E37F96D2952F1C3A30CA033715D7ABDA0F
+2D5A8ECFB327E739FCC62C866CFFEBFBDC97BF0D780482F700972E117CD6A811
+D685008F3C79FCCF802F7CFDD7F692D2931EBF9EB852B1F8D633171176FD77F7
+B947BF4B207827565CBAC4F0574B828109F0C893C7BF0A7CED8FFEE15E52BA32
+68750996C0954A9BFFF2FFCE33EE5DF8F55DFED9378136600176AC7851590D09
+0622C0234F1E2F0267FFE5DFDB599A289A835495E03A387C62961FBF3DC703CE
+730F014DA015DB466470C3B2624D306897FD02501A2F18F852266503CBC76E09
+ECAA79317407300A948112900732800968800A8898CBBD2CB40109F0CD4307C6
+70FD75754D132C015D55B867479E13176EFFCF079D977E1748010681C0A1D73B
+887B09CB625002B0A560E0FB83D692602528A6353CB461020D60D0955F24F0C8
+0EF001F9C4638F8BEB0D050313405705BEDC5C0D10E9B60F9BDE89DDE66102D9
+090261479E814DD7331061D95802389EDCB421C0716CCE5DB8C0BBE7CE536FB5
+182995181F1D617868887C2E87691808E5C67543631DAD48205C8F40E0915760
+85FB0E5D4DB02CD64C80271E7B5CBC1C356C138600C76EF3EE99D3549B0BE4F2
+26B66FF3DEE58BBC76F2148EE3A06B3AC55C9691A112A3E532A3C3C30C158B64
+D219344D07F1C19F7E8869801C817023E1378146588CF09C42680C2E370C0CAC
+0100BC4DD000B373D38C8CE6B9777437A6AE613B2E4DAB4DC3B2A8345A542A0B
+CC5616989EAB72FEAD499A2D0BDF93645226438502A343438C8E04DAA290CF93
+3253A8AAF6811A4662B7D924B0FCDBE1364360149A804E20578515B8F9EB4280
+8DB601A494A82A0C970A8C0E15D15515CFF7B16D87A6D5A6906E3194CD303A3C
+C49E9D2E9EEF2391B42D87857A9DD9F92A17A7AFF2C6BBA7B16D075551C8A733
+8C9687181B1E6664789852A9442E93C1304C10EFCF8096ECD25527E8E9265DC1
+9B740DC348F81B4A804EE5DE060F01524A1425108A0FB43C3FB83AC320A3EBA4
+7259865C17AB6DD368B458A8375868B6F0159F522ECF50BEC06D37ED42A802DF
+F569B45ACC2FD4989EABF0DAA993D48E35F03D89A9EB948B0546CB65C6464618
+1E1A265FC89349A751359D9FF72C76AC9F6961D1E99221EAF96A58E224D8D821
+60333400026CDB61B6B2802725AAAA2214052104280A5208D075D22583EC5091
+ADBEC4F73C1CDBC16A5B341A2DAA8D26ADB68BAA08464B05264647D055150938
+8ECB42A3CECC7C95A9B939DE397786A6D5C650557299C0B6181B1961A43C4CB1
+58A490CBA39BE90DBDEEC5F7A1B3AB8445A54B8648F82BEEFDF001B101A49420
+A1D26872617A869469601846A0158408E82D1450140C4D45D775744D43D33434
+D3209D4E912D95189312CF75B1DB369665516F5A349A2D5A0D0BC76963EA3A3B
+27C6D8BB733B9AAAE24B89D5B6A8D61ACC56163873F902AFBDF33656BB4D3E9D
+E163070FB277CFAD9BE679C43A9AA04B82A5CA8A136FD647036CF8100008C1F9
+0B93FCE4F5B7C9A44C0C43A390CD90CDA4304D035DD7D00D1D4337D14D0D5DD7
+310C035DD749E93A86AEA3EB212932290AD90C856189F47C3CD7C3B62CCE5F99
+C5B11D14155A968D6D5BB89E4FDAD0D9BB63823BF6EC465515DA8EC30BC7DEE0
+7B870F73E8218F5B6EBD7B636F40FC3E04887AF8B584BFB91AC0D98421404870
+3D8F5FFEE8416ED935C1DB672F71EECA2497AFCED2B0DAF8BE8FAE6B64D326D9
+6C9A5C264D3A65629A46480A3D244844069D94A1A36B3A86A171B5E17272B24D
+B3DDE2573E7A0BB3F3352E5FAD303E9E4503E6E76B54EA756CDBC6340C7EF917
+1FE0AF7FFC135E78E5286313DBC9E4363E07E21A77B95FD82B163EAC9B06D878
+02447679266372DBAE6DECD9B68596DD666EA1CE6CB5C674B5C6CC6C85E9F92A
+73D51A57A7E6F17C1F5D57C9A45364D329B299542F29520686AE611A3A27AFBA
+3C7DC545F37C6E9FAA72F252832B951607CC34BBC60ACC349BA85A867BEFDEC3
+7CADCEDCEC021FBDEF4EBEFFC31798BC7291DD7B373EF34DF676B47E21AF4AF0
+113E30368008C601007CDF47CAC06ADF521EA29CCF3331D2A2B16D1CDB71713D
+8F46DBA65A6D30335F6166BE42A5D6606A661ECF9718BA463A6592CD9864D201
+29742DC5906E903655AC7A8DD72A923766045B471DE6CECE7364DA23252D3EB2
+2FC5DE728917AFBECED8508E623E47AD5EDF945888DF3B04C4B76BC63A7901EB
+51CBB52165480296BA6289A1A90CE5B2645329EA2D8B8665A16B2AA56C9A5D5B
+479152E27A1E75AB4DB5DA6076BEC2CC7C956AADC9D44C053F24C5BE4C0643D5
+989B313890CF33A1698C6B0DE6BC1427AB2EB70FA5989A9BA3D63468B65A3094
+C334747CB9F1F720BA0FD7C09A89B026028473CDB138C0260482E01A4A4E2085
+0429D05595522E4B3665D2B0DA34ADC0884308F4902443B92CBBB78D21A5C471
+5D1A569B4AB5C16CA5C25CB546BD6951ABD581394ABAC6253BD0169FDF9A2563
+08262F371042A1B25087ADA3288A8294725334805C9DADD5D112CB8583AF4B80
+6BE4F20BC27968D7DFF88B9732DEC57A19B0D4CCA0AEAA14B31932A641C36AD3
+6ADB78D207D98DA60944C7202CE773DCB47D1C5FFAB8AE47C36AB3506B51ADD5
+58683469B4DA78D61CF3354945083C4F769AA3280A92CD21802F41938E758D8F
+E39E41FFFE35D1F9F0997DFB8F01F7AD47439D4FFE7DDABFFDFBEB51150052FA
+64E53CE72F5F60FBF828BF74E04E5CD70F45293B43840C248C8CCE855BC77568
+586DDA8EDB89294444083A5570B4B88305D938AEEBD1B41D9A2D8B5AAD41BD65
+516B5ADCBA7B073F7CE9285B47B772F31DF7AFFABAFEF2C5FFC85CFDC220B7A6
+83B4C8FCECC1DCA7BE064C11AC2DA811A48B45F98292253287E30428023FDEF2
+994FDF77DB1FFE1ED2B1C169236D3BDCB7918E139C736CB0A26307E93848DB06
+C7C1A9D779E7DBDF67FED683B4BEF87BEB727152FAE498E7E2958BEC181FE5C1
+0377E17A5E8FB089099D0E21BA6AD39792B6EDD06CB7717D1FC2CF7BC910518A
+BEBA7B5A839470E6D214E98CC98F5E3AC678799C3DB7AF9E00B6DBE46F8E7C83
+BB76DCC43FFF07BF8DE3D9B87E1BC773707D1BC70FB6AEEFE07816AE6FD3F66C
+1CDFEE9CB77D9B66BBC9E1175EA45DF3FEF6C1DCA7BE4E97004DBAB9829D4491
+38093A21ACBF989A6CFFD6B61DDFA9BF73F25F085FA68AF7ED03DF03CF0BB6BE
+17447CA27D373A0E8B171C2B4250BE7937B34F3F8DE7B838B7DFBB6859CBAA8B
+9418B4A8D76B14F259764F8C75842510218D45F817725A847BA27BACA90ABAAE
+2144A04E8510288A08B622D846FB9D6345A088E0BBD16F092158A85B689ACAB9
+CB57C99A598A2313ABBE2E45D1D93DFE0B3C7BE27FD3B61BDCB6FD367CE9E14B
+7F89AD8B2F3D3CE985E782F39EF4108A64DBC418EF5D3ABFF752EBA2D861EC7A
+35E2314B04860E3DFC5971E8E1CFF2D4D34FD313C3FCC41F7DA55D7EF5D5BFA9
+BCF2EA3F4E8F8FA6727B76AF9A0011098ADB275878EAFBD8C5619C1D37876A7A
+6DC597125358010172010102014657D8355344448688047DC78A1068AA8A1A1A
+6F4047D8BDDBF03CA2B38DCE2908165A4D54352040CACC50286F5DD3B5298ACE
+58F176FEF6D85F50CC15D83EB26DD504F0A5070A944B79DEBD7C7EFF9C3337B3
+55DF7E86A56D81CEE4D0A1873FDB4B80430F7F56CC1D3C30557CEBADC3733F7E
+EEF3F99B76A5D2DBB6AE9A00F83E7ACAA0B8759CFAFFF936ED2D3B71B6EC1888
+00292CEACD3AC55C965D5B230D20E21D7C310944AF8688CE0B4055553455E976
+939EDE1F3B564202C43485A208AA0D0B45119CBF3245CA48911F9A58F3F59946
+9189D23E7EF0D327D8323CC658716CD504F0A58F6EAA0C978B9CBE7CEEC1BA5B
+BF30AE4F4CB2383740C6B7FD045000A572EF3DB3A5136FCE567EF2F2C3E5FDF7
+A0970AAB2600BE8F6E1AE8A641F3AF7F8075C701BC62796D43802F4929168D66
+9D6267082026E05E61F70A3DB61F638A886983A8532CD60201693AC73112541B
+2D84105C9C9C46D74302ACE5DAC2629A45527A9EC3C7FE2777EEBC8D5C3AB76A
+02F8D2433755744DE1CCD50B0FA8427BABA40E354239C709D021C1220D10B245
+9DBFEFDE777227DE9A9C3DFCCCA7CBF7DE8D512CAC9A00F83EE9528194AE62FD
+DFEFD0BAE3006EAE8CF45955F17D49262440299F65F7D6317C296363725F0F17
+91A097D1069D73A0A92A422820658F26100214BA4450E89E5F685820E0C2E40C
+9A62922D4EACFABAFA4B31BB0B5DCBF3D4CB7FCAAD3B6E0D49B03A02F8D22797
+37D10DD57867F2DD077561BC53544B8D0ECBBBC507E4B2A92FB3F71F38ECB6AC
+8BD5136F2DF7B5EBA2B87D0B19C5477FE7753C29D754243266E475C764D1D98F
+9DEBDF172C32F2A2DE2C42156F682A86AEA12A4A4F51D4D87E58A26381405502
+16ADF5BAFACBF8D00184C872FCBDE303DDF3D1B102664ACB4EBB530F1164110F
+112493E6803461F6D052812009C8F291A385E1A3C7FED7C4439FDCBEF5573F03
+8EBDA68678B6CDA9C32F307DF7C7A93EF46B2BC8535DA2413236E51C69FC58CF
+EEFA6A91CD233B4732B4F6A59408D1A57FB73B047B5208742150848FEB7BA12B
+D8EB2A46FB0289AA2A7832CC5492D184D860A179C76DF2D25B7FCCDDBBF6F02B
+1FF9348EEFACAD1EC7E395A3EF92760A6F1ECC3C70848000D125476B075CC0EB
+274047450C1F3DF627E5BBEEB8FB96DFF95781DFBF469C7DFE0833C33B99F98D
+7FB7E63A2274FD19D1152AD091AC082F410A8490848344283AD1534FF4693F21
+84A6227C81E7F920648C0822B43B826F6B8A8223BC4EAADA7AE0D5F7FE94F152
+8ADFFCD46FE2FA6BBFE7C78F9F81A676F581ECC75E22583E06DDF503F105A5CE
+921AE0966F3DF94461CFEE43777CFD0FD7DC0880B37FF753263D93A92F7E65A0
+7AC26601416F86900851361021076457A8FD083E8F091AD1090075F8135AE542
+5582584114DE95F1486170AE3B0428DD455803288057DFFDEFE8CA0C8F7EE677
+D65E09F0DAEBA7A8CFB4171EC87CE208900D4F4729E4164170A8B3A8B487005F
+FAF2A3F247FBF67F35B365FCB7F67DF38FD14C3D88F0AD01977FF63A97671A4C
+FEFBFF8A9FC9ADF9823AE893AA100A5D054E8F00447832EEEFF4F4F2880CA23B
+7A44C3818874832AF085DF1B5D0CB50B10A6A305DB4133A24E5EFC4B5AED537C
+F59F7C0D5D5771BCB5A9FEB74F9E65EA4AB5F589CC83470CC5140419C33E416F
+4FC74A277DBC87003FDAB7FF9F69B9DC57EFFCC67F42CBE5C069AFA921336F9E
+E2C2F1D34CFD9B6FAC8FF0890953767B6D24F17E95DE916EE7C3F01301524663
+7E703E9A4994611D418EA144CAC040945206251C5E22C2A84A18245294CE676B
+510117A69FE7E2F40FF983CFFF07D26606D75FDB3D3F7BFE32A74E5F700EA61F
+78C3504C9F6E76B04A377B38CA1CEE24907608F0CCBEFD9F03FEBC7CE03E669F
+7D8ED96702774F7ADD70B08C5CBDF09CF4BD2027BCF33D1FB7D5E2F29BEF31F9
+6FBF81B3FDE601CDA2004228B8BE4ADA3438776912B9FFAECE50D0FD4E8C0C61
+D7EE38BE5DBB101992A04B083ADBB073C7CEC50800A1791154A428C130A12802
+AFE37AAEEEBAAECC1DE5B5F7FE9C037BEEE7E8E92378BE17BA7B7E9FCBE7E3FB
+DE126E60706CD96D4E9F39EF1C4CFFC2B121AD5C5F4D1BE21A60B784AF4D3DF7
+BCE0F91715A928AAD454DDD774D3D7F5946FE8595F0F8A54D58C54D5F4B9D29D
+07760E677A6B2C807DF057B1B7DFBCBABB711D345C9D89A112472FBECDB3C74E
+F0F17B6E475FD289895C7DB1E838321A65A83D64E8F777051B9CEB641A47D6BF
+8C4F3805F5AA6A9091ACA80A8AB294D5717DB4DAB3DCBAFD10751BDEBAE48667
+E39DB617D5A683D398AEE4FCF90A7D83E21DA9BB6B435AB946D7C7F762A5FF91
+329DC9A11ECEC6123D34BACB8F0A043EE42830169661A0F4B2FE8B5FFC8D8F6F
+E5DCECDAD4D66AE0B93639394F29273971EA2C86A6B26B620B37EF9C60626488
+7C26BD6A8BBC335CC4F6E382EF75FFBA9F019C999A61A65AE3F5D36769377DCA
+DBEE61A357149D9B697265A6DADEEFFEF4C5F825100BECD0157E64F435081ED7
+370B4C134C174F13CC185697EA42513430BEF020BEEA24EE4F9236947551F3CB
+414A89F42557177C1A8D0677EEDD8DE779541B0D9E3D761CDF97947259766F1D
+67C7F808E5629E94695CB75D3DA1E1703F5A8422111DEBB28700418B50C36084
+AA280811249B6CF4FA530138C2889EC5138FE8F53F1F205A2ADE02EA0404A885
+FB8DF07C9B25DC40112B1101E24B8DA077556AE79F361222BCD1BA9961A125A9
+9CAD93D67D0A1995ADC363986905DBF63877759A93172EA32A0A23E5223BC746
+182F972864D361CC7F65BF059D8831C40D4BA22E17048004812DA008C11A4C80
+4110177E14D4894AE4E3472E5F0DA884A54A374FC002EC6B698078897E306256
+8B80109D0ED16F906D04544D279DCD61A6D2789E8BE7BACCB65B5CADB550A54D
+5A87625663A4584437541CCFE3CD339778E3DD73A4CD145B868B6C192E51CEE7
+C8A4CC55B57991A608AD7F4223300A316FF47DE8AB3F2E7C9BA043C69F13102D
+198F08301F6EE30470AF971318B12C3E9E88F0473BB969CA66505F085445034D
+434A03297DD2E90C9EE7E27B2E8E6333596FE1CF37D1844BD614147326C57C16
+4D5398A9D5B932BB80A209F29934E3A50223C53C854C1A435F5B72B40AA88A8A
+100E021F65836D80D86D8EF7FE786F6FD00DF43408547E8D6008A886A54E3755
+6C4902C4D58B4BC0AAA8D743408626313375F31FCA2182E6E881B52C3D1F5FA6
+F173B98E7668B72D2E545A305345573C726995622E45CA4CE1B92EE7A7673937
+358BAE6B94B319868B794AD90C99941144F756D80E4551909E8BD55CC0CCE4D0
+341DB1413D22A600A2313FEAFD91AA8F8FF5D72A9DDECF327301F1CAA3F13F8A
+2835E81A854030D3F67385A6A2A282AE8706A38F9FCE76B483EB3834DA16F353
+75C4D526A626C9A7350AF9347A3645A5D160BED144280A59D3A094CB50CA65C8
+A75298BAB6AC6A57550DD7B1A9CDCF20A524972FA2A88B5DB8F5C0121A209251
+64EC55E98EF5718147A1DF8EF117FEAF7F2D0D10572F82DE6120BE061D08C6C1
+F70F04A84AA89F8C800CD2C77773786E09CF73701C87F95693992B4D146AA475
+C867750AB90C229BC6B26D262B0B989A462E6D52C8A4C9A753644C03BDCF9854
+1481F43D6CAB8E69679132BF61F7A38F88922E012CBAD67E7CAC8F5BFC9171D8
+7998242017CD053CF1D8E3D06597ECFBA1481B441E0210DCEFF72D94B0B97AD7
+76F03D0F2F1C2E5CC7C1B12DA6EB0D262B0BE8A242DA1014B206F9628E76DB64
+A1DE4451150C5D279732C9A64CEA960542E0396D5C47A2A7743435483CDDA8FB
+11937FBFBF1F0DD3F1313F32F622E1C703401282ECE0451A2024417C7A232243
+140388F2CBBA1AE0E73D04AC14226CBEAA8141573B78793CA784EB3AB8AE836D
+595CAE346076165D9564532AC57C9A6C2143C34CA1AA2A8A80F98505E6AECE81
+9A269DC991CDE6D10D6DC3EE475FB551E78CFBFD16DD47C84665D9B4F025CDDF
+1809A2198E886D51137A08A0BDAF868055400947321DA4698094413CDEF3706C
+1BCF75706C9BA6D5A43AD544B95AC7D421A52BB89ECB42BD8D2443B154245F1C
+229BCBA25D233CBD2ECD5D3C04C40340F1670576E6FBE93E32AED3EBE3955CB3
+B5E117E5324BC3BA2CFAA012A007C135E821AFA56922099E28E2BA453C27B01D
+1CBB4DAB6D2191E4CB06BA61629A2952990CAAA66F682CE01AB7B93F0A180F0C
+5DF731F2D7A56BEC1F3B15F43F8858536F0402F42132F6742D5C4E166807CFF3
+F05C37FC8A1A0C07AA8AB209BEF0758696B807D7BF7F4DAC495F854344A762FD
+4624400FA2EB0BB54327276173AF7B95C665A7E36EE883227D09C6FBDA0DB871
+B08C0658DB7C34EB4080A99ACDF6526AD06A12AC00B1F8C2A26179AD18980095
+BAC39E91CCF5BF9860609C9B6962C876233CEC17BE5CE2DC7531100114E9FDA3
+D7CED7BEFBD19B4BD7FF728281706ECE62AE6639F7BAAFFCACEFA37EC1AF8A08
+0311E07EF7C5A75E6E7DF2F5974E57EE79E88EF2205525B80E7E726A1E5FA8BA
+8E1B8FD0F6BF2124EE01AC8804830E01324DF3D1E7DFE1AF460A7AF1FEDDC9FB
+023702DF7D7992F3B3160F38CFFD88E5851F2701AC800403DB00FBDC57DE7855
+FBC857BE7764EA4F3C5FF24BB7259A60BDD0B23DBE77748A57CFD7D8EFBCF42C
+8B85DF9F0DD409F7B2091AA0D398FBDC9F7DE73DF5E6334F1DF5BFF58357A6B7
+FDD34F4CE003F38DB52D70F8B0A398D6A8B65CFEEEC41C2DC767BFF3D2B33AAE
+C3CAC2BEAB22C2C0434058BC3DDEE9137B38FDB993EAEDBFFE3F5EE0F7218899
+5BCE80CB663EC4B8C53D717448CECDB3384FA3FF353151894FFCAC480BAC0701
+7A52936EF5DEFE2BBCB78F58A4762E78C5BB84F4F30A3203322582597A35CCCC
+8FE71CDEE8A1C455A1DC153AF41A75F1049078EA5794F0D1FFBEA0EB1260A01B
+FFC4638F2B04243208D610E409D6108C10AC23182178C1619160A1628ADEE7DA
+0FDC861B1C9100E329606DBAB9FE73C00C419EFF344132C842F8B90DB85FFAF2
+A3CBAAE0F5D000F1CCD4782A72F452C3784651FC6587AB7AAEFD8710FD1AA07F
+B1473CFD2B127A340CACE88D61302001629342F1B502D13369E28B48A286474F
+A688671625581E912A8FC6FEF86A9F28DF3F9EEADD33FF7FBDCAD7237B2162A7
+A0FBBAB2A877470D8F88B11C01122DD0455C7071972FBEC63F4AFD5AA02FD59B
+25327FAE85810910D3025103E3828C32895B04C24FD1310457F76E9B0F29FA57
+00C5977C3562A5BFF7AFC80084757A5C3CBD2E4AFC5CDC36881E4A1011A0DF13
+48B018710FA07F1550DCFD8B123F3BEA7FA5AF8F5FB79B1F5B591C7906917710
+95F802D3FE971B25B836E204880781E2EF0AEEE4F9B34CFAD752585701F49120
+BEB03422C49ADE6CF521C752B1FF28D8136D97CCF85D09D6FDE6C748105F661E
+177AE2FFAF1EF178C05213414B66FCAE041B26843E222491BFC1B1546470CD82
+8FB0E182E8CB204E043F383AC21E44F009122448902041820409122448902041
+8204091224489020418204091224489020418204091224489020418204091224
+B851F0FF01B9460FD477BC3DB90000000049454E44AE426082
+</a:Content>
+</o:PictureFile>
+</c:PictureFiles>
+<c:ObjectLanguage>
+<o:Shortcut Id="o5">
+<a:ObjectID>B4298EFF-5ABA-425C-9DA2-C215199DDC64</a:ObjectID>
+<a:Name>Technical Architecture Modeling (TAM)</a:Name>
+<a:Code>TAM</a:Code>
+<a:CreationDate>1703696632</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696632</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>518AE360-4AD2-4529-A343-F9439E823BD7</a:TargetID>
+<a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+</o:Shortcut>
+</c:ObjectLanguage>
+<c:DefaultDiagram>
+<o:SequenceDiagram Ref="o6"/>
+</c:DefaultDiagram>
+<c:SequenceDiagrams>
+<o:SequenceDiagram Id="o6">
+<a:ObjectID>9862AF60-0464-4D33-BCA7-52AA7BE1312A</a:ObjectID>
+<a:Name>Diagramme de séquence Suivi Envoi</a:Name>
+<a:Code>Diagramme_de_sequence_Suivi_Envoi</a:Code>
+<a:CreationDate>1703696632</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697840</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\SQD]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Show Links intersections=Yes
+Activate automatic link routing=No
+Grid size=800
+Graphic unit=2
+Window color=255 255 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255 255 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Show Icon=No
+Mode=0
+Trunc Length=80
+Word Length=80
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+Area.IconPicture=Yes
+Area.Stereotype=Yes
+Area.Comment=No
+Area.TextStyle=No
+Area.SubSymbols=Yes
+Area_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de zone&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject.TextStyle=No
+ExtendedObject_SymbolLayout=
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=
+ExtDpdShowStrn=Yes
+ExtendedDependency_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.TextStyle=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=
+Package.Stereotype=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package.TextStyle=No
+Package_SymbolLayout=
+Display Model Version=Yes
+InteractionSymbol.IconPicture=No
+InteractionSymbol.TextStyle=No
+InteractionSymbol_SymbolLayout=
+UMLObject.Stereotype=Yes
+UMLObject.HeaderAlwaysVisible=Yes
+UMLObject.IconPicture=No
+UMLObject.TextStyle=No
+UMLObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ActivationSymbol.IconPicture=No
+ActivationSymbol.TextStyle=No
+ActivationSymbol_SymbolLayout=
+Actor.Stereotype=Yes
+Actor.IconPicture=No
+Actor.TextStyle=No
+Actor_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+InteractionReference.IconPicture=No
+InteractionReference.TextStyle=No
+InteractionReference_SymbolLayout=
+InteractionFragment.IconPicture=No
+InteractionFragment.TextStyle=No
+InteractionFragment_SymbolLayout=
+Message.BeginTime=Yes
+Message.Stereotype=Yes
+Message.NameOrCode=No
+Message.NameOrOper=No
+Message.OperAndArgs=No
+Message.CondAndOper=No
+Message.CondOperAndSign=Yes
+Message.EndTime=Yes
+Message.ActivationAttachment=No
+Message_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Heure de début&quot; Attribute=&quot;BeginTime&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;NameOrCode&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Nom&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;No&quot; Display=&quot;VerticalRadios&quot; &gt;[CRLF]   &lt;StandardAttribute Name=&quot;Nom d&amp;#39;opération&quot; Attribute=&quot;NameOrOper&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Nom d&amp;#39;opération avec signature&quot; Attribute=&quot;OperAndArgs&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Expression de séquence et nom d&amp;#39;opération&quot; Attribute=&quot;CondAndOper&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Expression de séquence et nom d&amp;#39;opération avec signature&quot; Attribute=&quot;CondOperAndSign&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;/ExclusiveChoice&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Heure de fin&quot; Attribute=&quot;EndTime&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+IRefShowStrn=Yes
+FragShowLife=Yes
+ShowIntrSym=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\AREA]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,9,B
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=9600
+Height=8000
+Brush color=253 249 234
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=16
+Brush gradient color=245 230 173
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+Line style=2
+Source Arrow=24
+Center Arrow=24
+Target Arrow=7
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+Line style=2
+Source Arrow=24
+Center Arrow=24
+Target Arrow=7
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LCNMFont=Arial,8,N
+LCNMFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=2400
+Height=2400
+Brush color=255 255 255
+Fill Color=No
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=-1
+
+[DisplayPreferences\Symbol\CLDPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SINT]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=22000
+Height=28800
+Brush color=255 255 255
+Fill Color=No
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDOBJT]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0 0 0
+DISPNAMEFont=Arial,8,U
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ACTVSYM]
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=900
+Height=2400
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\UCDACTR]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,9,B
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IREF]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=1031
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IFRG]
+KWRDFont=Arial,8,N
+KWRDFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=208 208 232
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDMSSG]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0 0 0
+CENTERFont=Arial,8,N
+CENTERFont color=0 0 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0 0 0
+Line style=2
+Source Arrow=24
+Center Arrow=24
+Target Arrow=24
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0 0 0
+Line style=2
+Source Arrow=24
+Center Arrow=24
+Target Arrow=24
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<a:PageFooterTemplate>BENTOUHAMI FAISAL / INF-B</a:PageFooterTemplate>
+<a:PageHeaderTemplate>%DIAGRAM% | %APPNAME%</a:PageHeaderTemplate>
+<a:PageNumberTemplate/>
+<c:Symbols>
+<o:InteractionSymbol Id="o7">
+<a:ModificationDate>1703699293</a:ModificationDate>
+<a:Rect>((-23774,-17779), (23660,20063))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:BaseSymbol.Flags>4</a:BaseSymbol.Flags>
+<a:LineColor>4194368</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>4</a:BrushStyle>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:SequenceDiagram Ref="o6"/>
+</c:Object>
+</o:InteractionSymbol>
+<o:MessageSymbol Id="o8">
+<a:CreationDate>1703697840</a:CreationDate>
+<a:ModificationDate>1703697840</a:ModificationDate>
+<a:Rect>((-12603,-5499), (2725,-3843))</a:Rect>
+<a:ListOfPoints>((-12203,-4874),(2325,-4874))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o9"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivationSymbol Ref="o10"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o11"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o12">
+<a:CreationDate>1703697413</a:CreationDate>
+<a:ModificationDate>1703697901</a:ModificationDate>
+<a:Rect>((-12603,-12404), (2635,-10673))</a:Rect>
+<a:ListOfPoints>((2235,-11704),(-12203,-11704))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivationSymbol Ref="o13"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o9"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o14"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o15">
+<a:CreationDate>1703697403</a:CreationDate>
+<a:ModificationDate>1703697904</a:ModificationDate>
+<a:Rect>((1925,-10402), (19736,-8671))</a:Rect>
+<a:ListOfPoints>((19336,-9702),(2325,-9702))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o16"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivationSymbol Ref="o13"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o17"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o18">
+<a:CreationDate>1703697396</a:CreationDate>
+<a:ModificationDate>1703697846</a:ModificationDate>
+<a:Rect>((1925,-7872), (19736,-6216))</a:Rect>
+<a:ListOfPoints>((2325,-7247),(19336,-7247))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivationSymbol Ref="o10"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o16"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o19"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o20">
+<a:CreationDate>1703697391</a:CreationDate>
+<a:ModificationDate>1703697815</a:ModificationDate>
+<a:Rect>((-12603,-3312), (2725,-1656))</a:Rect>
+<a:ListOfPoints>((-12203,-2687),(2325,-2687))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o9"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:UMLObjectSequenceSymbol Ref="o21"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o22"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o23">
+<a:CreationDate>1703697361</a:CreationDate>
+<a:ModificationDate>1703697744</a:ModificationDate>
+<a:CenterTextOffset>(3200, -8)</a:CenterTextOffset>
+<a:Rect>((-21124,-947), (2815,761))</a:Rect>
+<a:ListOfPoints>((2415,-247),(-20724,-247))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivationSymbol Ref="o24"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o25"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o26"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o27">
+<a:CreationDate>1703697340</a:CreationDate>
+<a:ModificationDate>1703697643</a:ModificationDate>
+<a:Rect>((1925,733), (19736,2449))</a:Rect>
+<a:ListOfPoints>((19336,1433),(2325,1433))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o16"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivationSymbol Ref="o24"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o28"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o29">
+<a:CreationDate>1703697197</a:CreationDate>
+<a:ModificationDate>1703697643</a:ModificationDate>
+<a:Rect>((1955,3388), (19736,5029))</a:Rect>
+<a:ListOfPoints>((2355,4013),(19336,4013))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivationSymbol Ref="o30"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o16"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o31"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o32">
+<a:CreationDate>1703697161</a:CreationDate>
+<a:ModificationDate>1703697693</a:ModificationDate>
+<a:CenterTextOffset>(-4800, -24)</a:CenterTextOffset>
+<a:Rect>((-21124,5663), (2725,7280))</a:Rect>
+<a:ListOfPoints>((-20724,6288),(2325,6288))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o25"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivationSymbol Ref="o30"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o33"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o34">
+<a:CreationDate>1703696942</a:CreationDate>
+<a:ModificationDate>1703697696</a:ModificationDate>
+<a:CenterTextOffset>(-5600, -28)</a:CenterTextOffset>
+<a:Rect>((-21124,8473), (2725,10161))</a:Rect>
+<a:ListOfPoints>((-20724,9173),(2325,9173))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o25"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:UMLObjectSequenceSymbol Ref="o21"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o35"/>
+</c:Object>
+</o:MessageSymbol>
+<o:ActorSequenceSymbol Id="o16">
+<a:CreationDate>1703696719</a:CreationDate>
+<a:ModificationDate>1703697643</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:EmptyAreaSize>(2400, 1800)</a:EmptyAreaSize>
+<a:Rect>((16937,14323), (21736,17922))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>12648447</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,9,B</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>3</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:CustomPictureID>8CFB5800-5CDB-42F1-8FAA-B0829D16088B</a:CustomPictureID>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<a:SymbolContent>Actor.Stereotype 1</a:SymbolContent>
+<c:SlaveSubSymbols>
+<o:LifelineSymbol Id="o36">
+<a:ModificationDate>1703697828</a:ModificationDate>
+<a:Rect>((18936,-17479), (19736,14723))</a:Rect>
+<a:ListOfPoints>((19336,14323),(19336,-17079))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:DashStyle>3</a:DashStyle>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>8421504</a:ShadowColor>
+</o:LifelineSymbol>
+</c:SlaveSubSymbols>
+<c:Object>
+<o:Shortcut Ref="o37"/>
+</c:Object>
+</o:ActorSequenceSymbol>
+<o:ActorSequenceSymbol Id="o25">
+<a:CreationDate>1703696726</a:CreationDate>
+<a:ModificationDate>1703697662</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-23124,14323), (-18325,17922))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>12648447</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,9,B</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:SlaveSubSymbols>
+<o:LifelineSymbol Id="o38">
+<a:ModificationDate>1703697828</a:ModificationDate>
+<a:Rect>((-21124,-17479), (-20324,14723))</a:Rect>
+<a:ListOfPoints>((-20724,14323),(-20724,-17079))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:DashStyle>3</a:DashStyle>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>8421504</a:ShadowColor>
+</o:LifelineSymbol>
+</c:SlaveSubSymbols>
+<c:Object>
+<o:Shortcut Ref="o39"/>
+</c:Object>
+</o:ActorSequenceSymbol>
+<o:ActorSequenceSymbol Id="o9">
+<a:CreationDate>1703696731</a:CreationDate>
+<a:ModificationDate>1703697677</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-14603,14323), (-9804,17922))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>12648447</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,9,B</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:SlaveSubSymbols>
+<o:LifelineSymbol Id="o40">
+<a:ModificationDate>1703697828</a:ModificationDate>
+<a:Rect>((-12603,-17479), (-11803,14723))</a:Rect>
+<a:ListOfPoints>((-12203,14323),(-12203,-17079))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:DashStyle>3</a:DashStyle>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>8421504</a:ShadowColor>
+</o:LifelineSymbol>
+</c:SlaveSubSymbols>
+<c:Object>
+<o:Shortcut Ref="o41"/>
+</c:Object>
+</o:ActorSequenceSymbol>
+<o:UMLObjectSequenceSymbol Id="o21">
+<a:CreationDate>1703696742</a:CreationDate>
+<a:ModificationDate>1703697840</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:EmptyAreaSize>(2400, 1800)</a:EmptyAreaSize>
+<a:Rect>((-74,14323), (4725,17922))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,B
+DISPNAME 0 Arial,9,BU</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>3</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:CustomPictureID>8D5BFA49-11A6-40A6-B363-225F45ACB6BD</a:CustomPictureID>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<a:SymbolContent>UMLObject.Stereotype 1</a:SymbolContent>
+<c:SlaveSubSymbols>
+<o:LifelineSymbol Id="o42">
+<a:ModificationDate>1703697840</a:ModificationDate>
+<a:Rect>((1925,-17479), (2725,14723))</a:Rect>
+<a:ListOfPoints>((2325,14323),(2325,-17079))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:DashStyle>3</a:DashStyle>
+<a:LineWidth>1</a:LineWidth>
+<a:ShadowColor>8421504</a:ShadowColor>
+</o:LifelineSymbol>
+<o:ActivationSymbol Id="o30">
+<a:CreationDate>1703697161</a:CreationDate>
+<a:ModificationDate>1703697201</a:ModificationDate>
+<a:Rect>((1875,3953), (2775,6363))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>13890042</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+</o:ActivationSymbol>
+<o:ActivationSymbol Id="o24">
+<a:CreationDate>1703697353</a:CreationDate>
+<a:ModificationDate>1703697361</a:ModificationDate>
+<a:Rect>((1875,-247), (2775,2093))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>13890042</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+</o:ActivationSymbol>
+<o:ActivationSymbol Id="o13">
+<a:CreationDate>1703697407</a:CreationDate>
+<a:ModificationDate>1703697901</a:ModificationDate>
+<a:Rect>((1875,-11779), (2775,-9679))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>13890042</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+</o:ActivationSymbol>
+<o:ActivationSymbol Id="o10">
+<a:CreationDate>1703697840</a:CreationDate>
+<a:ModificationDate>1703697840</a:ModificationDate>
+<a:Rect>((1875,-7274), (2775,-4864))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>13890042</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+</o:ActivationSymbol>
+</c:SlaveSubSymbols>
+<c:Object>
+<o:UMLObject Ref="o43"/>
+</c:Object>
+</o:UMLObjectSequenceSymbol>
+</c:Symbols>
+</o:SequenceDiagram>
+</c:SequenceDiagrams>
+<c:Actors>
+<o:Shortcut Id="o37">
+<a:ObjectID>0C081829-1E73-4E50-B699-ECFD8A5992F5</a:ObjectID>
+<a:Name>Base de donnees</a:Name>
+<a:Code>Base_de_donnees</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>AEB82ECA-0F94-44D0-9B14-5B53E077BE58</a:TargetID>
+<a:TargetClassID>18112101-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+<c:FullShortcutReplica>
+<o:SubReplication Ref="o44"/>
+</c:FullShortcutReplica>
+</o:Shortcut>
+<o:Shortcut Id="o39">
+<a:ObjectID>01A95CB6-0F2B-4EE9-8A02-3B786F59F209</a:ObjectID>
+<a:Name>Client</a:Name>
+<a:Code>Client</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703701273</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>EA405E7D-B6BA-4357-AAD0-8C6FC965348B</a:TargetID>
+<a:TargetClassID>18112101-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+<c:FullShortcutReplica>
+<o:SubReplication Ref="o45"/>
+</c:FullShortcutReplica>
+</o:Shortcut>
+<o:Shortcut Id="o41">
+<a:ObjectID>83300C22-75B9-4139-A9BB-482F8CF86987</a:ObjectID>
+<a:Name>Destinataire</a:Name>
+<a:Code>Destinataire</a:Code>
+<a:CreationDate>1703696731</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>D15A428A-8733-4EFF-AC32-A7C40E8EDBFE</a:TargetID>
+<a:TargetClassID>18112101-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+<c:FullShortcutReplica>
+<o:SubReplication Ref="o46"/>
+</c:FullShortcutReplica>
+</o:Shortcut>
+</c:Actors>
+<c:Model.Objects>
+<o:UMLObject Id="o43">
+<a:ObjectID>A87E244B-1059-482B-81CD-3C27619E27C2</a:ObjectID>
+<a:Name>Application</a:Name>
+<a:Code>Application</a:Code>
+<a:CreationDate>1703696742</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703701273</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+</o:UMLObject>
+</c:Model.Objects>
+<c:Messages>
+<o:Message Id="o35">
+<a:ObjectID>D15DAA27-E710-410D-AB9B-92F19E136E59</a:ObjectID>
+<a:Name>Client choisit suivre un envoi</a:Name>
+<a:Code>Client_choisit_suivre_un_envoi</a:Code>
+<a:CreationDate>1703696942</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697536</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:SequenceNumber>1</a:SequenceNumber>
+<c:Object1>
+<o:UMLObject Ref="o43"/>
+</c:Object1>
+<c:Object2>
+<o:Shortcut Ref="o39"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o33">
+<a:ObjectID>AB34D711-7D1E-4D9D-B4F6-993A9A7D6EB8</a:ObjectID>
+<a:Name>Client saisi le numero de suivi</a:Name>
+<a:Code>Client_saisi_le_numero_de_suivi</a:Code>
+<a:CreationDate>1703697161</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697564</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>C</a:ControlFlow>
+<a:SequenceNumber>2</a:SequenceNumber>
+<c:Object1>
+<o:UMLObject Ref="o43"/>
+</c:Object1>
+<c:Object2>
+<o:Shortcut Ref="o39"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o31">
+<a:ObjectID>2314A805-C4B3-4954-8169-D2D77213BDE3</a:ObjectID>
+<a:Name>demande le statut d&#39;envoi</a:Name>
+<a:Code>demande_le_statut_d_envoi</a:Code>
+<a:CreationDate>1703697197</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697590</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>C</a:ControlFlow>
+<a:SequenceNumber>3</a:SequenceNumber>
+<c:Object1>
+<o:Shortcut Ref="o37"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o43"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o28">
+<a:ObjectID>DDB08E43-7F0A-407C-964F-32FF1765C482</a:ObjectID>
+<a:Name>Retourne le statut et localisation d&#39;envoi</a:Name>
+<a:Code>Retourne_le_statut_et_localisation_d_envoi</a:Code>
+<a:CreationDate>1703697340</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697628</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>R</a:ControlFlow>
+<a:SequenceNumber>4</a:SequenceNumber>
+<c:Object1>
+<o:UMLObject Ref="o43"/>
+</c:Object1>
+<c:Object2>
+<o:Shortcut Ref="o37"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o26">
+<a:ObjectID>BFFCCD08-5BB2-4BCE-99A2-94E6ABA8313C</a:ObjectID>
+<a:Name>Afficher les details de l&#39;envoi</a:Name>
+<a:Code>Afficher_les_details_de_l_envoi</a:Code>
+<a:CreationDate>1703697361</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697966</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>R</a:ControlFlow>
+<a:SequenceNumber>5</a:SequenceNumber>
+<c:Object1>
+<o:Shortcut Ref="o39"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o43"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o22">
+<a:ObjectID>37AB2BA2-7388-4F1F-AC80-38280681A8EA</a:ObjectID>
+<a:Name>Destinataire choisit Suivre un Envoi</a:Name>
+<a:Code>Destinataire_choisit_Suivre_un_Envoi</a:Code>
+<a:CreationDate>1703697391</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697798</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>C</a:ControlFlow>
+<a:SequenceNumber>1</a:SequenceNumber>
+<c:Object1>
+<o:UMLObject Ref="o43"/>
+</c:Object1>
+<c:Object2>
+<o:Shortcut Ref="o41"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o19">
+<a:ObjectID>BEC432F4-252E-4F1B-831F-010E6C8145B3</a:ObjectID>
+<a:Name>demande le statut d&#39;envoi</a:Name>
+<a:Code>demande_le_statut_d_envoi</a:Code>
+<a:CreationDate>1703697396</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697893</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>C</a:ControlFlow>
+<a:SequenceNumber>3</a:SequenceNumber>
+<c:Object1>
+<o:Shortcut Ref="o37"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o43"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o17">
+<a:ObjectID>61FEF96B-884D-4F4E-9EB3-CFA8CFCB415C</a:ObjectID>
+<a:Name>Retourne le statut et localisation</a:Name>
+<a:Code>Retourne_le_statut_et_localisation</a:Code>
+<a:CreationDate>1703697403</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697931</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>R</a:ControlFlow>
+<a:SequenceNumber>4</a:SequenceNumber>
+<c:Object1>
+<o:UMLObject Ref="o43"/>
+</c:Object1>
+<c:Object2>
+<o:Shortcut Ref="o37"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o14">
+<a:ObjectID>5A14CD4B-7DCC-4AC4-81BA-6BA1D0D5C924</a:ObjectID>
+<a:Name>Afficher les details de l&#39;envoi</a:Name>
+<a:Code>Afficher_les_details_de_l_envoi</a:Code>
+<a:CreationDate>1703697413</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697957</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>R</a:ControlFlow>
+<a:SequenceNumber>5</a:SequenceNumber>
+<c:Object1>
+<o:Shortcut Ref="o41"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o43"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o11">
+<a:ObjectID>30E9F9E5-2801-4A92-ACE8-2821747D0FB1</a:ObjectID>
+<a:Name>Destinataire saisi le code de suivi</a:Name>
+<a:Code>Destinataire_saisi_le_code_de_suivi</a:Code>
+<a:CreationDate>1703697840</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703697876</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:ControlFlow>C</a:ControlFlow>
+<a:SequenceNumber>2</a:SequenceNumber>
+<c:Object1>
+<o:UMLObject Ref="o43"/>
+</c:Object1>
+<c:Object2>
+<o:Shortcut Ref="o41"/>
+</c:Object2>
+</o:Message>
+</c:Messages>
+<c:TargetModels>
+<o:TargetModel Id="o47">
+<a:ObjectID>14EB28B3-9B25-42D7-A7C5-E5FEC4B595E2</a:ObjectID>
+<a:Name>Technical Architecture Modeling (TAM)</a:Name>
+<a:Code>TAM</a:Code>
+<a:CreationDate>1703696632</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1368450749</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:TargetModelURL>file:///%[XOL]%/TAM.xol</a:TargetModelURL>
+<a:TargetModelID>518AE360-4AD2-4529-A343-F9439E823BD7</a:TargetModelID>
+<a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1368450749</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o5"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o48">
+<a:ObjectID>53B2A274-0CEC-49B9-A167-14EA761C1B02</a:ObjectID>
+<a:Name>UC_client</a:Name>
+<a:Code>UC_client</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:TargetModelURL>file:///E|/Projets JavaFX/Faisal/Dossier d&#39;analyse/Diagrammes/Diagrammes de projet Final/UC/UC_client_inscription.moo</a:TargetModelURL>
+<a:TargetModelID>F9660356-3F65-49A7-A8F8-E40F556E4F44</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1703683263</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o41"/>
+<o:Shortcut Ref="o49"/>
+<o:Shortcut Ref="o39"/>
+<o:Shortcut Ref="o50"/>
+<o:Shortcut Ref="o51"/>
+<o:Shortcut Ref="o52"/>
+<o:Shortcut Ref="o53"/>
+<o:Shortcut Ref="o54"/>
+<o:Shortcut Ref="o55"/>
+<o:Shortcut Ref="o56"/>
+<o:Shortcut Ref="o57"/>
+<o:Shortcut Ref="o58"/>
+<o:Shortcut Ref="o37"/>
+</c:SessionShortcuts>
+<c:SessionReplications>
+<o:SubReplication Ref="o59"/>
+<o:SubReplication Ref="o46"/>
+<o:SubReplication Ref="o60"/>
+<o:SubReplication Ref="o61"/>
+<o:SubReplication Ref="o62"/>
+<o:SubReplication Ref="o45"/>
+<o:SubReplication Ref="o44"/>
+<o:SubReplication Ref="o63"/>
+<o:SubReplication Ref="o64"/>
+<o:Replication Ref="o65"/>
+</c:SessionReplications>
+<c:FullShortcutModel>
+<o:Model Id="o66">
+<a:ObjectID>E09AB7A5-25C0-4DEA-9F06-070684F3FAE6</a:ObjectID>
+<a:Name>UC_client</a:Name>
+<a:Code>UC_client</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Class Diagram Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=
+
+[FolderOptions\CheckModel]
+
+[FolderOptions\CheckModel\Package]
+
+[FolderOptions\CheckModel\Package\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\CheckPackageMissTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\DefaultCheckPackageMissTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\Circular inheritance]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\Circular dependency]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ShortcutUniqCode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ChildShortcut]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe]
+
+[FolderOptions\CheckModel\Classe\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Empty classifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Persistent class]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Association Identifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Visibility]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Constructor return type]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Constructor modifier]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Method implementation]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Role name assignment]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Role name unicity]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanInfo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\JavaBean]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Inheritance on Enum Type (Java)]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassDefinition]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassBusinessImpl]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassHomeImpl]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbCreate]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbPostCreate]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbFind]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbHome]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbSelect]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassDefinition]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassAttributes]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassExistence]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Mapping]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\MappingSFMap]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\CsfrWrongBound]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\ClssInvalidGenMode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Java_Class_Enum_Enum_ration_abstraite]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Java_Class_Enum_Enum_ration_finale]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Java_Class_EJB3BeanClass_Composant_EJB_manquant]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface]
+
+[FolderOptions\CheckModel\Interface\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Empty classifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Visibility]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Interface constructor]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Association navigability]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeCreateMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeFindMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\ObjectBusinessMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\CsfrWrongBound]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut]
+
+[FolderOptions\CheckModel\Classe.Attribut\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\Datatype assignment]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\Extend final class]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\DomainDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\CheckDttpIncompatibleFormat]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant]
+
+[FolderOptions\CheckModel\Classe.Identifiant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\EmptyColl - ATTR]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\CheckIncludeColl - Clss]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut]
+
+[FolderOptions\CheckModel\Interface.Attribut\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Datatype assignment]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Extend final class]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\DomainDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Event parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\CheckDttpIncompatibleFormat]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération]
+
+[FolderOptions\CheckModel\Classe.Opération\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Return type assignment]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Abstract operation&#39;s body]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Abstract operation]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Operation signature]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Overriding operation]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Enum Abstract Methods]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Java_Operation_Param_tre_d_argument_variable]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port]
+
+[FolderOptions\CheckModel\Classe.Port\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\PortIsolated]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Partie]
+
+[FolderOptions\CheckModel\Classe.Partie\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\PartLink]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Partie\PartComposition]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage]
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\AscnNull]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\AscnIntf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Interface.Opération]
+
+[FolderOptions\CheckModel\Interface.Opération\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\Return type assignment]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\Parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\Java_Operation_Param_tre_d_argument_variable]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association]
+
+[FolderOptions\CheckModel\Association\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation]
+
+[FolderOptions\CheckModel\Généralisation\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Redundant Generalizations]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Multiple inheritance (Java)]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Final datatype with initial value]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Non-Persistent Specifying Attribute]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation]
+
+[FolderOptions\CheckModel\Réalisation\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\Redundant Realizations]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine]
+
+[FolderOptions\CheckModel\Domaine\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckDttpIncompatibleFormat]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur]
+
+[FolderOptions\CheckModel\Acteur\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation]
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet]
+
+[FolderOptions\CheckModel\Objet\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien entre objets]
+
+[FolderOptions\CheckModel\Lien entre objets\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien entre objets\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien entre objets\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien entre objets\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien entre objets\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien entre objets\Redundant Instance links]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction]
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefDiagram]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefLifelines]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefInpMsg]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefOutMsg]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message]
+
+[FolderOptions\CheckModel\Message\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message\MessageNoNumber]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Message\MessageManyLinks]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message\Actor-Message]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité]
+
+[FolderOptions\CheckModel\Activité\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckActvTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckNoStart]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckActvReuse]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet]
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\CheckObndDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision]
+
+[FolderOptions\CheckModel\Décision\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\CheckDcsnCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation]
+
+[FolderOptions\CheckModel\Synchronisation\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\CheckSyncCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation]
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\CheckPrntOrgnLoop]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début]
+
+[FolderOptions\CheckModel\Début\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\CheckStrtTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin]
+
+[FolderOptions\CheckModel\Fin\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\CheckStrtTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition]
+
+[FolderOptions\CheckModel\Transition\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\CheckTrnsSrc]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\CheckTrnsCond]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\TrnsDuplSTAT]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux]
+
+[FolderOptions\CheckModel\Flux\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\CheckFlowSrc]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\CheckFlowNoCond]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\CheckFlowCond]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\FlowDuplOOMACTV]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement]
+
+[FolderOptions\CheckModel\Evénement\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\EvntUnused]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat]
+
+[FolderOptions\CheckModel\Etat\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\StatTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\StatNoStart]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\ActnOrder]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action]
+
+[FolderOptions\CheckModel\Etat.Action\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\ActnEvent]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\ActnDupl]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction]
+
+[FolderOptions\CheckModel\Point de jonction\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\JnPtCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant]
+
+[FolderOptions\CheckModel\Composant\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\EJBClassifiers]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\Method Soap Message redefinition]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\WSDLJava_Component_Service_Web_vide]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port]
+
+[FolderOptions\CheckModel\Composant.Port\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\PortIsolated]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage]
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\AscnNull]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\AscnIntf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Noeud]
+
+[FolderOptions\CheckModel\Noeud\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\Empty Node]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant]
+
+[FolderOptions\CheckModel\Instance de composant\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Component Instance with null Component]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Duplicate Component Instance]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Isolated Component Instance]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données]
+
+[FolderOptions\CheckModel\Source de données\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\EmptyColl - MODLSRC]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\Data Source Target Consistency]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée]
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie]
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réplication]
+
+[FolderOptions\CheckModel\Réplication\PartialReplication]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion]
+
+[FolderOptions\CheckModel\Règle de gestion\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\EmptyColl - OBJCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu]
+
+[FolderOptions\CheckModel\Objet étendu\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu]
+
+[FolderOptions\CheckModel\Lien étendu\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier]
+
+[FolderOptions\CheckModel\Fichier\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckPathExists]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données]
+
+[FolderOptions\CheckModel\Format de données\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Format de données\CheckDataFormatNullExpression]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone]
+
+[FolderOptions\CheckModel\Zone\CheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\CheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\DefaultCheckUseOnlyTerms]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\DefaultCheckUseTermBySynonym]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\NotApprovedTerms]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Zone\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Cld]
+CaseSensitive=Yes
+DisplayName=Yes
+EnableTrans=Yes
+UseTerm=No
+EnableRequirements=Yes
+EnableFullShortcut=Yes
+SynchroCode=Yes
+ShowClss=Yes
+DeftAttr=int
+DeftMthd=int
+DeftParm=int
+DeftCont=java.util.Collection
+DomnDttp=Yes
+DomnChck=Yes
+DomnRule=Yes
+SupportDelay=No
+PreviewEditable=Yes
+AutoRealize=Yes
+DttpFullName=Yes
+DeftClssAttrVisi=private
+VBNetPreprocessingSymbols=
+CSharpPreprocessingSymbols=
+
+[ModelOptions\Cld\NamingOptionsTemplates]
+
+[ModelOptions\Cld\ClssNamingOptions]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Name]
+Template=
+MaxLen=254
+Case=T
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Name]
+Template=
+MaxLen=254
+Case=T
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP]
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Name]
+Template=
+MaxLen=254
+Case=L
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Name]
+Template=
+MaxLen=254
+Case=L
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST]
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT]
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Name]
+Template=
+MaxLen=254
+Case=L
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Code]
+Template=
+MaxLen=254
+Case=O
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO]
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\AREA]
+
+[ModelOptions\Cld\ClssNamingOptions\AREA\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\AREA\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=No
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Xsm]
+GenRootElement=Yes
+GenComplexType=No
+GenAttribute=Yes
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+Notation=2
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No
+
+[ModelOptions\Generate\Oom]
+PreserveMode=Yes</a:ModelOptionsText>
+<a:GlobalObjectID/>
+<a:RepositoryFilename>E:\Projets JavaFX\Faisal\Dossier d&#39;analyse\Diagrammes\séquences\diagrammes de séquences.moo</a:RepositoryFilename>
+<c:ObjectLanguage>
+<o:Shortcut Id="o67">
+<a:ObjectID>5F59B7DF-BBB2-4252-80D0-558D0976B7C7</a:ObjectID>
+<a:Name>Java</a:Name>
+<a:Code>Java</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
+<a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+</o:Shortcut>
+</c:ObjectLanguage>
+<c:ExtendedModelDefinitions>
+<o:Shortcut Id="o68">
+<a:ObjectID>A1EC4756-5C58-4ADE-B2E4-F2C2E8F04A14</a:ObjectID>
+<a:Name>WSDL for Java</a:Name>
+<a:Code>WSDLJava</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
+<a:TargetClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetClassID>
+</o:Shortcut>
+</c:ExtendedModelDefinitions>
+<c:ClassDiagrams>
+<o:Shortcut Id="o69">
+<a:ObjectID>26A65DA0-4C74-4A20-8CA3-5A7C6E770B34</a:ObjectID>
+<a:Name>Modèle Oriente Objet(MOO / diagramme de classe)</a:Name>
+<a:Code>modeleOrienteObjetMooDiagrammeDeClasse</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>4F76BA56-FE1B-4625-B76C-B99DBF4DDFA6</a:TargetID>
+<a:TargetClassID>18112062-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+</c:ClassDiagrams>
+<c:DiagramShortcuts>
+<o:Shortcut Id="o70">
+<a:ObjectID>9B808A59-F62C-4DD6-8005-C52A72264D97</a:ObjectID>
+<a:Name>Modèle Logique de Données (MLD)</a:Name>
+<a:Code>MODELE_LOGIQUE_DE_DONNEES__MLD_</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>942042A2-921B-4817-9A9A-1189E6C46DF0</a:TargetID>
+<a:TargetClassID>4C883674-1CDD-4F67-A7BA-27B4CC6D601D</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o71">
+<a:ObjectID>9BADF66E-22E5-4101-8C99-904FE62A084D</a:ObjectID>
+<a:Name>Modèle Conceptuel de Données (MCD)</a:Name>
+<a:Code>MODELE_CONCEPTUEL_DE_DONNEES__MCD_</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>2ED7C70B-A676-4F4D-A6B1-D2E9581A1CBC</a:TargetID>
+<a:TargetClassID>1E597183-9350-11D1-AB3C-0020AF71E433</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+</c:DiagramShortcuts>
+<c:UseCaseDiagrams>
+<o:Shortcut Id="o58">
+<a:ObjectID>4E6B1CE3-470A-43E7-995B-7A03F4A67ED0</a:ObjectID>
+<a:Name>UC_client_inscription</a:Name>
+<a:Code>UC_client_inscription</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>4AD25B86-ED0D-452E-A0C3-8FECA51D5BE4</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o57">
+<a:ObjectID>EF2D0A88-8CB0-410B-BC86-FD6545B86554</a:ObjectID>
+<a:Name>UC_client_se_connecter</a:Name>
+<a:Code>UC_client_se_connecter</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>68107312-6279-4D58-A999-A5A41D926ACB</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o56">
+<a:ObjectID>600FB13B-1875-488C-91BC-1384A83CE319</a:ObjectID>
+<a:Name>UC_client_reinitialisation_du_mot_de passe</a:Name>
+<a:Code>UC_client_reinitialisation_du_mot_de_passe</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>CD6F61AC-37A2-45F4-B652-B58D8C48BEBF</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o55">
+<a:ObjectID>80CC2568-0E83-4BBD-B59E-F182004C925E</a:ObjectID>
+<a:Name>UC_client_modifier_les_informations_du_compte</a:Name>
+<a:Code>UC_client_modifier_les_informations_du_compte</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>4978D17B-E1ED-4875-8BDC-D5DD652704CE</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o54">
+<a:ObjectID>0D226A89-1F52-432E-B434-DAFEF5EBDC04</a:ObjectID>
+<a:Name>UC_client_fermer_le_compte</a:Name>
+<a:Code>UC_client_fermer_le_compte</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>87F5173F-78C8-48DF-9F83-4D9875255C4D</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o53">
+<a:ObjectID>DF2E1C0B-7E3B-4F5D-9CAD-90DFC6076110</a:ObjectID>
+<a:Name>UC_client_consulter_historique_des_envois</a:Name>
+<a:Code>UC_client_consulter_historique_des_envois</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>FA697211-31D1-48A4-8704-07F70D31E882</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o52">
+<a:ObjectID>599E494B-581E-4167-981D-42C93807B9C0</a:ObjectID>
+<a:Name>UC_client_utilisateur_simulation</a:Name>
+<a:Code>UC_client_utilisateur_simulation</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>F489FF29-2178-4F0B-92D6-F1BF56AF58C3</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o51">
+<a:ObjectID>7B37595A-EBE9-4DEE-994B-8877A9371F78</a:ObjectID>
+<a:Name>UC_client_confirmation_et_paiement</a:Name>
+<a:Code>UC_client_confirmation_et_paiement</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>BBB3C373-4C63-4499-8984-E20611690CB0</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o50">
+<a:ObjectID>380DF7BB-814D-48B8-990F-4F607ECD9ECB</a:ObjectID>
+<a:Name>UC_client_destinataire_suivi_colis_envois</a:Name>
+<a:Code>UC_client_destinataire_suivi_colis_envois</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>ECF94EA9-CA4B-440A-96D3-E5E3B7393069</a:TargetID>
+<a:TargetClassID>18112100-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+</c:UseCaseDiagrams>
+<c:Actors>
+<o:Actor Id="o72">
+<a:ObjectID>068F79E4-42A9-48C5-84D1-3675109944C3</a:ObjectID>
+<a:Name>Base de donnees</a:Name>
+<a:Code>Base_de_donnees</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<c:RelatedDiagrams>
+<o:Shortcut Ref="o58"/>
+<o:Shortcut Ref="o57"/>
+<o:Shortcut Ref="o56"/>
+<o:Shortcut Ref="o55"/>
+<o:Shortcut Ref="o54"/>
+<o:Shortcut Ref="o53"/>
+<o:Shortcut Ref="o52"/>
+<o:Shortcut Ref="o51"/>
+<o:Shortcut Ref="o50"/>
+</c:RelatedDiagrams>
+</o:Actor>
+<o:Actor Id="o73">
+<a:ObjectID>4565807B-F4DD-46C4-A22B-7B6A9CF6DBAC</a:ObjectID>
+<a:Name>Client</a:Name>
+<a:Code>Client</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<c:RelatedDiagrams>
+<o:Shortcut Ref="o70"/>
+<o:Shortcut Ref="o69"/>
+<o:Shortcut Ref="o71"/>
+</c:RelatedDiagrams>
+</o:Actor>
+<o:Actor Id="o74">
+<a:ObjectID>0CCD42FC-CEDE-4216-83C3-4CBB992E6792</a:ObjectID>
+<a:Name>Destinataire</a:Name>
+<a:Code>Destinataire</a:Code>
+<a:CreationDate>1703696731</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+</o:Actor>
+</c:Actors>
+<c:ArchitectureAreas>
+<o:Shortcut Id="o49">
+<a:ObjectID>46BC72E0-1639-4378-8A57-0602D172435A</a:ObjectID>
+<a:Name>se connecter</a:Name>
+<a:Code>se_connecter</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:TargetStereotype/>
+<a:GlobalObjectID/>
+<a:TargetID>1A41B86F-A00D-4C32-8D9F-8022513761E2</a:TargetID>
+<a:TargetClassID>08269698-BEBF-4ED1-B464-DC7CDE2AE497</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;::Confirmer et payer</a:TargetPackagePath>
+</o:Shortcut>
+</c:ArchitectureAreas>
+<c:ChildTraceabilityLinks>
+<o:ExtendedDependency Id="o75">
+<a:ObjectID>0FECC487-F00E-4835-8AE2-5E2C331BEF55</a:ObjectID>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<c:Object1>
+<o:Shortcut Ref="o52"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o73"/>
+</c:Object2>
+</o:ExtendedDependency>
+<o:ExtendedDependency Id="o76">
+<a:ObjectID>B203924E-6C43-453B-A887-178F60A95906</a:ObjectID>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:Stereotype>exclude</a:Stereotype>
+<a:GlobalObjectID/>
+<c:Object1>
+<o:Shortcut Ref="o57"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o73"/>
+</c:Object2>
+</o:ExtendedDependency>
+<o:ExtendedDependency Id="o77">
+<a:ObjectID>A2B84567-9250-4DA3-8DE9-E34504A7E30C</a:ObjectID>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<c:Object1>
+<o:Shortcut Ref="o49"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o73"/>
+</c:Object2>
+</o:ExtendedDependency>
+<o:ExtendedDependency Id="o78">
+<a:ObjectID>537BFD92-4A52-4727-89A0-D34C201D3C93</a:ObjectID>
+<a:CreationDate>1703696731</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:Stereotype>exclude</a:Stereotype>
+<a:GlobalObjectID/>
+<c:Object1>
+<o:Shortcut Ref="o58"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o74"/>
+</c:Object2>
+</o:ExtendedDependency>
+</c:ChildTraceabilityLinks>
+<c:Replications>
+<o:Replication Id="o65">
+<a:ObjectID>4D5155FE-1348-422D-9CE8-2B4C2F7BEC86</a:ObjectID>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>F9660356-3F65-49A7-A8F8-E40F556E4F44</a:OriginalID>
+<a:OriginalClassID>18112060-1A4B-11D1-83D9-444553540000</a:OriginalClassID>
+<c:SubReplications>
+<o:SubReplication Id="o64">
+<a:ObjectID>7BFC50B7-5951-45C6-B4F1-ACE68EFD4561</a:ObjectID>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>F373C4FA-A94B-4419-805C-710C855EB4D0</a:OriginalID>
+<a:OriginalClassID>362D41EC-9D82-11D1-8E5D-444553540000</a:OriginalClassID>
+<a:OriginalUOL>ObjectLanguage::Raccourci de langage objet &#39;Java&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:Shortcut Ref="o67"/>
+</c:ReplicaObject>
+</o:SubReplication>
+<o:SubReplication Id="o63">
+<a:ObjectID>3F057E90-8481-4046-A51E-99EABC2DFCE6</a:ObjectID>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>72F262E1-7DD9-44A3-81D7-73CC36903AB3</a:OriginalID>
+<a:OriginalClassID>362D41EC-9D82-11D1-8E5D-444553540000</a:OriginalClassID>
+<a:OriginalUOL>ExtendedModelDefinitions::Raccourci de extension &#39;WSDL for Java&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:Shortcut Ref="o68"/>
+</c:ReplicaObject>
+</o:SubReplication>
+<o:SubReplication Id="o44">
+<a:ObjectID>A2E16879-28FF-405C-81BA-319478A9D766</a:ObjectID>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>AEB82ECA-0F94-44D0-9B14-5B53E077BE58</a:OriginalID>
+<a:OriginalClassID>18112101-1A4B-11D1-83D9-444553540000</a:OriginalClassID>
+<a:OriginalUOL>Actors::Acteur &#39;Base_de_donnees&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:Actor Ref="o72"/>
+</c:ReplicaObject>
+</o:SubReplication>
+<o:SubReplication Id="o45">
+<a:ObjectID>AF27DBCD-DFBE-41B9-AF2E-4FC0EE697452</a:ObjectID>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>EA405E7D-B6BA-4357-AAD0-8C6FC965348B</a:OriginalID>
+<a:OriginalClassID>18112101-1A4B-11D1-83D9-444553540000</a:OriginalClassID>
+<a:OriginalUOL>Actors::Acteur &#39;Client&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:Actor Ref="o73"/>
+</c:ReplicaObject>
+</o:SubReplication>
+<o:SubReplication Id="o62">
+<a:ObjectID>FBF0CAC9-9E63-4DF8-B76E-0B81DDC2ED35</a:ObjectID>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>AE256A84-9965-41CB-99B3-3D2CF6D9C9A5</a:OriginalID>
+<a:OriginalClassID>4F87C716-251E-11D1-83D9-444553540000</a:OriginalClassID>
+<a:OriginalUOL>ChildTraceabilityLinks::Lien de traçabilité &#39;Diagramme de cas d&#39;utilisation &#39;UC_client_utilisateur_simulation&#39;&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:ExtendedDependency Ref="o75"/>
+</c:ReplicaObject>
+</o:SubReplication>
+<o:SubReplication Id="o61">
+<a:ObjectID>E289AC84-8237-48F9-9580-3E792D3F488C</a:ObjectID>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>54FA2D9D-3ED4-4E2B-B354-D2194F5B66D9</a:OriginalID>
+<a:OriginalClassID>4F87C716-251E-11D1-83D9-444553540000</a:OriginalClassID>
+<a:OriginalUOL>ChildTraceabilityLinks::Lien de traçabilité &#39;Diagramme de cas d&#39;utilisation &#39;UC_client_se_connecter&#39;&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:ExtendedDependency Ref="o76"/>
+</c:ReplicaObject>
+</o:SubReplication>
+<o:SubReplication Id="o60">
+<a:ObjectID>1F84A42A-07C2-46ED-A45D-9650C7CA37B6</a:ObjectID>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>753E2D9F-27F7-4FDA-AFDF-F3C5FB588018</a:OriginalID>
+<a:OriginalClassID>4F87C716-251E-11D1-83D9-444553540000</a:OriginalClassID>
+<a:OriginalUOL>ChildTraceabilityLinks::Lien de traçabilité &#39;Zone &#39;se_connecter&#39;&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:ExtendedDependency Ref="o77"/>
+</c:ReplicaObject>
+</o:SubReplication>
+<o:SubReplication Id="o46">
+<a:ObjectID>C0E5ABF7-7304-45A5-9E41-79AB8A34F054</a:ObjectID>
+<a:CreationDate>1703696731</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>D15A428A-8733-4EFF-AC32-A7C40E8EDBFE</a:OriginalID>
+<a:OriginalClassID>18112101-1A4B-11D1-83D9-444553540000</a:OriginalClassID>
+<a:OriginalUOL>Actors::Acteur &#39;Destinataire&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:Actor Ref="o74"/>
+</c:ReplicaObject>
+</o:SubReplication>
+<o:SubReplication Id="o59">
+<a:ObjectID>4220C09E-45D4-44FA-90F4-0AC09BA5C414</a:ObjectID>
+<a:CreationDate>1703696731</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696731</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:OriginalID>67786DA7-9902-4BE3-8E37-92B58D0D3E1D</a:OriginalID>
+<a:OriginalClassID>4F87C716-251E-11D1-83D9-444553540000</a:OriginalClassID>
+<a:OriginalUOL>ChildTraceabilityLinks::Lien de traçabilité &#39;Diagramme de cas d&#39;utilisation &#39;UC_client_inscription&#39;&#39;</a:OriginalUOL>
+<c:ReplicaObject>
+<o:ExtendedDependency Ref="o78"/>
+</c:ReplicaObject>
+</o:SubReplication>
+</c:SubReplications>
+<c:ReplicaObject>
+<o:Model Ref="o66"/>
+</c:ReplicaObject>
+</o:Replication>
+</c:Replications>
+</o:Model>
+</c:FullShortcutModel>
+</o:TargetModel>
+<o:TargetModel Id="o79">
+<a:ObjectID>BA9ED22F-1475-4AC8-A063-369CFA9EA77C</a:ObjectID>
+<a:Name>Java</a:Name>
+<a:Code>Java</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:TargetModelURL>file:///%[XOL]%/java5-j2ee14.xol</a:TargetModelURL>
+<a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
+<a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1202823188</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o67"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o80">
+<a:ObjectID>0EBAB075-10DE-4780-939D-FAA6DD9284C1</a:ObjectID>
+<a:Name>WSDL for Java</a:Name>
+<a:Code>WSDLJava</a:Code>
+<a:CreationDate>1703696719</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696719</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:TargetModelURL>file:///%[XEM]%/WSDLJ2EE.xem</a:TargetModelURL>
+<a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
+<a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1096028631</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o68"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o81">
+<a:ObjectID>D886474E-E410-4FB4-9BE8-CF3880A2D2EE</a:ObjectID>
+<a:Name>Modèle Logique de Données</a:Name>
+<a:Code>MODELE_LOGIQUE_DE_DONNEES</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:TargetModelURL>file:///E|/Projets JavaFX/Faisal/Dossier d&#39;analyse/Diagrammes/Diagrammes de projet Final/modèle logique de données.mld</a:TargetModelURL>
+<a:TargetModelID>42BD76FB-FED1-49D3-8442-A97EDDC57ED8</a:TargetModelID>
+<a:TargetModelClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1703583858</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o70"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o82">
+<a:ObjectID>C0C9193B-6563-4C88-90AF-28ED5872F4AE</a:ObjectID>
+<a:Name>modeleOrienteObjet</a:Name>
+<a:Code>modeleOrienteObjet</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:TargetModelURL>file:///E|/Projets JavaFX/Faisal/Dossier d&#39;analyse/Diagrammes/Diagrammes de projet Final/Modèle Oriente Objet(MOO - diagramme de classe).moo</a:TargetModelURL>
+<a:TargetModelID>DF678BFB-3B3E-4B78-A917-AB14F52F673A</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1703614370</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o69"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o83">
+<a:ObjectID>65AF0795-8BF4-4693-BC4C-34033088522F</a:ObjectID>
+<a:Name>Modele Conceptuel Donnees</a:Name>
+<a:Code>MODELE_CONCEPTUEL_DONNEES</a:Code>
+<a:CreationDate>1703696726</a:CreationDate>
+<a:Creator>bento</a:Creator>
+<a:ModificationDate>1703696726</a:ModificationDate>
+<a:Modifier>bento</a:Modifier>
+<a:GlobalObjectID/>
+<a:TargetModelURL>file:///E|/Projets JavaFX/Faisal/Dossier d&#39;analyse/Diagrammes/Diagrammes de projet Final/Modele Conceptuel Donnees (MCD).mcd</a:TargetModelURL>
+<a:TargetModelID>91808861-0BA2-4C0B-8958-AEC52BBA09BD</a:TargetModelID>
+<a:TargetModelClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1703583349</a:TargetModelLastModificationDate>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o71"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>
