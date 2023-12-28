@@ -5,14 +5,13 @@
 <Workspace>
 	<Local Expanded="Yes">
 		<Model ID="{91808861-0BA2-4C0B-8958-AEC52BBA09BD}" Loaded="No" Name="Modele Conceptuel Donnees" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="../Diagrammes de projet Final/Modele Conceptuel Donnees (MCD).mcd"/>
-		<Model ID="{42BD76FB-FED1-49D3-8442-A97EDDC57ED8}" Loaded="No" Name="Modèle Logique de Données" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="../Diagrammes de projet Final/modèle logique de données.mld"/>
+		<Model ID="{42BD76FB-FED1-49D3-8442-A97EDDC57ED8}" Name="Modèle Logique de Données" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="../Diagrammes de projet Final/modèle logique de données.mld"/>
 		<Model ID="{5A28E683-719E-42F7-A716-6254DEE5260E}" Loaded="No" Name="Modèle Physique de Données" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="../Diagrammes de projet Final/Modèle Physique de Données(MPD).mpd"/>
-		<Model Expanded="Yes" ID="{DF678BFB-3B3E-4B78-A917-AB14F52F673A}" Name="modeleOrienteObjet" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../Diagrammes de projet Final/Modèle Oriente Objet(MOO - diagramme de classe).moo"/>
-		<Model Expanded="Yes" ID="{DF678BFB-3B3E-4B78-A917-AB14F52F673A}" Name="modeleOrienteObjet" OpenedReadOnly="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="/projets javafx/faisal/dossier d&#39;analyse/diagrammes/diagrammes de projet final/modèle oriente objet(moo - diagramme de classe).moo"/>
+		<Model Expanded="Yes" ID="{DF678BFB-3B3E-4B78-A917-AB14F52F673A}" Name="modeleOrienteObjet" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="/projets javafx/faisal/dossier d&#39;analyse/diagrammes/diagrammes de projet final/modèle oriente objet(moo - diagramme de classe).moo"/>
 		<Model Expanded="Yes" ID="{F9660356-3F65-49A7-A8F8-E40F556E4F44}" Loaded="No" Name="UC_client" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../Diagrammes de projet Final/UC/UC_client_inscription.moo"/>
-		<Model ID="{853A3507-BE8D-422E-A64F-56048DE20DBE}" Loaded="No" Name="all uses cases" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../Use Cases/all uses cases.moo"/>
-		<Model Expanded="Yes" ID="{64D9FFA7-85B0-4E29-B224-8ACEBBC34A46}" Loaded="No" Name="Diagramme de séquence Suivi Envoi" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../séquences/diagrammes de séquences.moo"/>
-		<Model Expanded="Yes" ID="{C6DF2791-DD2C-4E28-A47B-E6AF2F3F4934}" Loaded="No" Name="Diagramme de séquence Faire Simulation d&#39;un Envoi" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../séquences/Diagramme de séquence Faire Simulation d&#39;un Envoi.moo"/>
+		<Model ID="{853A3507-BE8D-422E-A64F-56048DE20DBE}" Name="all uses cases" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../Use Cases/all uses cases.moo"/>
+		<Model Expanded="Yes" ID="{64D9FFA7-85B0-4E29-B224-8ACEBBC34A46}" Name="Diagramme de séquence Suivi Envoi" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../séquences/diagrammes de séquences.moo"/>
+		<Model ID="{C6DF2791-DD2C-4E28-A47B-E6AF2F3F4934}" Name="Diagramme de séquence Faire Simulation d&#39;un Envoi" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../séquences/Diagramme de séquence Faire Simulation d&#39;un Envoi.moo"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>

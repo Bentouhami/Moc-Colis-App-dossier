@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{64D9FFA7-85B0-4E29-B224-8ACEBBC34A46}" Label="" LastModificationDate="1703702438" Name="Diagrammes de séquences" Objects="240" Symbols="39" Target="Technical Architecture Modeling (TAM)" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.7.5.6978"?>
+<?PowerDesigner AppLocale="UTF16" ID="{64D9FFA7-85B0-4E29-B224-8ACEBBC34A46}" Label="" LastModificationDate="1703702472" Name="Diagramme de séquence Suivi Envoi" Objects="240" Symbols="39" Target="Technical Architecture Modeling (TAM)" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.7.5.6978"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -9,11 +9,11 @@
 <c:Children>
 <o:Model Id="o2">
 <a:ObjectID>64D9FFA7-85B0-4E29-B224-8ACEBBC34A46</a:ObjectID>
-<a:Name>Diagrammes de séquences</a:Name>
-<a:Code>Diagrammes_de_sequences</a:Code>
+<a:Name>Diagramme de séquence Suivi Envoi</a:Name>
+<a:Code>Diagramme_de_sequence_Suivi_Envoi</a:Code>
 <a:CreationDate>1703696632</a:CreationDate>
 <a:Creator>bento</a:Creator>
-<a:ModificationDate>1703702438</a:ModificationDate>
+<a:ModificationDate>1703702472</a:ModificationDate>
 <a:Modifier>bento</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 

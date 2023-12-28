@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{64D9FFA7-85B0-4E29-B224-8ACEBBC34A46}" Label="" LastModificationDate="1703702472" Name="Diagramme de séquence Suivi Envoi" Objects="240" Symbols="39" Target="Technical Architecture Modeling (TAM)" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.7.5.6978"?>
+<?PowerDesigner AppLocale="UTF16" ID="{64D9FFA7-85B0-4E29-B224-8ACEBBC34A46}" Label="" LastModificationDate="1703763104" Name="Diagramme de séquence Suivi Envoi" Objects="215" Symbols="23" Target="Technical Architecture Modeling (TAM)" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.7.5.6978"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -984,11 +984,11 @@ ColnFKNameUse=No</a:ModelOptionsText>
 <a:RepositoryFilename>E:\Projets JavaFX\Faisal\Dossier d&#39;analyse\Diagrammes\séquences\diagrammes de séquences.moo</a:RepositoryFilename>
 <c:PictureFiles>
 <o:PictureFile Id="o3">
-<a:ObjectID>4D1E4EF7-AA27-4243-8C5D-8A7589998160</a:ObjectID>
+<a:ObjectID>DD897AE9-9262-4A78-B7F6-21FBBB7BCA9D</a:ObjectID>
 <a:Name>Database</a:Name>
-<a:CreationDate>1703702231</a:CreationDate>
+<a:CreationDate>1703763104</a:CreationDate>
 <a:Creator>bento</a:Creator>
-<a:ModificationDate>1703702231</a:ModificationDate>
+<a:ModificationDate>1703763104</a:ModificationDate>
 <a:Modifier>bento</a:Modifier>
 <a:GlobalObjectID/>
 <a:PictureID>8CFB5800-5CDB-42F1-8FAA-B0829D16088B</a:PictureID>
@@ -1977,11 +1977,11 @@ BD1FFFE9773CEA62CC83B6AF7BB05EB2478F5DAA1FB9648F1AFBFF3832ED3C08
 </a:Content>
 </o:PictureFile>
 <o:PictureFile Id="o4">
-<a:ObjectID>6ED13C88-C2B8-4D0C-9B8A-B11351D5E2B6</a:ObjectID>
+<a:ObjectID>5E002974-4CCA-485E-B42F-4FE1BDF76F52</a:ObjectID>
 <a:Name>Application Service</a:Name>
-<a:CreationDate>1703702231</a:CreationDate>
+<a:CreationDate>1703763104</a:CreationDate>
 <a:Creator>bento</a:Creator>
-<a:ModificationDate>1703702231</a:ModificationDate>
+<a:ModificationDate>1703763104</a:ModificationDate>
 <a:Modifier>bento</a:Modifier>
 <a:GlobalObjectID/>
 <a:PictureID>8D5BFA49-11A6-40A6-B363-225F45ACB6BD</a:PictureID>
@@ -2823,7 +2823,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:CreationDate>1703697361</a:CreationDate>
 <a:ModificationDate>1703697744</a:ModificationDate>
 <a:CenterTextOffset>(3200, -8)</a:CenterTextOffset>
-<a:Rect>((-21124,-947), (2815,761))</a:Rect>
+<a:Rect>((-21124,-947), (2815,777))</a:Rect>
 <a:ListOfPoints>((2415,-247),(-20724,-247))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -2847,7 +2847,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o27">
 <a:CreationDate>1703697340</a:CreationDate>
 <a:ModificationDate>1703697643</a:ModificationDate>
-<a:Rect>((1925,733), (19736,2449))</a:Rect>
+<a:Rect>((1925,733), (19736,2465))</a:Rect>
 <a:ListOfPoints>((19336,1433),(2325,1433))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>128</a:LineColor>
@@ -2870,7 +2870,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o29">
 <a:CreationDate>1703697197</a:CreationDate>
 <a:ModificationDate>1703697643</a:ModificationDate>
-<a:Rect>((1955,3388), (19736,5029))</a:Rect>
+<a:Rect>((1955,3388), (19736,5045))</a:Rect>
 <a:ListOfPoints>((2355,4013),(19336,4013))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -2894,7 +2894,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:CreationDate>1703697161</a:CreationDate>
 <a:ModificationDate>1703697693</a:ModificationDate>
 <a:CenterTextOffset>(-4800, -24)</a:CenterTextOffset>
-<a:Rect>((-21124,5663), (2725,7280))</a:Rect>
+<a:Rect>((-21124,5663), (2725,7296))</a:Rect>
 <a:ListOfPoints>((-20724,6288),(2325,6288))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>128</a:LineColor>
@@ -2917,7 +2917,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:CreationDate>1703696942</a:CreationDate>
 <a:ModificationDate>1703697696</a:ModificationDate>
 <a:CenterTextOffset>(-5600, -28)</a:CenterTextOffset>
-<a:Rect>((-21124,8473), (2725,10161))</a:Rect>
+<a:Rect>((-21124,8473), (2725,10177))</a:Rect>
 <a:ListOfPoints>((-20724,9173),(2325,9173))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -7310,13 +7310,13 @@ PreserveMode=Yes</a:ModelOptionsText>
 <a:Code>modeleOrienteObjet</a:Code>
 <a:CreationDate>1703696726</a:CreationDate>
 <a:Creator>bento</a:Creator>
-<a:ModificationDate>1703696726</a:ModificationDate>
+<a:ModificationDate>1703758189</a:ModificationDate>
 <a:Modifier>bento</a:Modifier>
 <a:GlobalObjectID/>
-<a:TargetModelURL>file:///E|/Projets JavaFX/Faisal/Dossier d&#39;analyse/Diagrammes/Diagrammes de projet Final/Modèle Oriente Objet(MOO - diagramme de classe).moo</a:TargetModelURL>
+<a:TargetModelURL>file:///E|/projets javafx/faisal/dossier d&#39;analyse/diagrammes/diagrammes de projet final/modèle oriente objet(moo - diagramme de classe).moo</a:TargetModelURL>
 <a:TargetModelID>DF678BFB-3B3E-4B78-A917-AB14F52F673A</a:TargetModelID>
 <a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
-<a:TargetModelLastModificationDate>1703614370</a:TargetModelLastModificationDate>
+<a:TargetModelLastModificationDate>1703758189</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o69"/>
 </c:SessionShortcuts>
